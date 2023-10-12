@@ -4,15 +4,18 @@ This package will get you set up using ROS2 with VSCode as your IDE.
 
 ## Steps
 
-[ROS2 inside dev Container](#ros2-inside-dev-container)
+- [ROS2 inside dev Container](#ros2-inside-dev-container)
   - [Steps](#steps)
   - [Prerequisites](#prerequisites)
-  - [1. Install Docker](#1-install-docker)
-  - [2. Install Visual Studio Code](#2-install-visual-studio-code)
-  - [3. Install Dev Containers extension](#3-install-dev-containers-extension)
-  - [4. Install ROS2](#4-install-ros2)
-  - [5. Next steps](#5-next-steps)
-  - [6. References](#6-references)
+  - [1. Setup VSCode ROS2 Workspace Template](#1-setup-vscode-ros2-workspace-template)
+  - [1.1 Setup template for ROS2 (No Nvidia GPU)](#11-setup-template-for-ros2-no-nvidia-gpu)
+    - [1.1.1 Clone the repository](#111-clone-the-repository)
+    - [1.1.2 Modify the devcontainer.json](#112-modify-the-devcontainerjson)
+    - [1.1.3 Modify the Dockerfile](#113-modify-the-dockerfile)
+  - [1.2 Setup the template for ROS2 (Nvidia GPU)](#12-setup-the-template-for-ros2-nvidia-gpu)
+    - [1.2.2 Modify the Dockerfile](#122-modify-the-dockerfile)
+  - [2. Open the workspace in VSCode using Dev Containers](#2-open-the-workspace-in-vscode-using-dev-containers)
+  - [2.1. Verify ROS2 installation](#21-verify-ros2-installation)
 
 ## Prerequisites
 
@@ -26,7 +29,7 @@ This package will get you set up using ROS2 with VSCode as your IDE.
 
 Open VSCode and go to the *Remote Explorer* tab. Then, connect to Ubuntu 22.04 clicking on the arrow.
 
-If you have an Nvidia GPU, and Nvidia Docker skip the next steps and go to [1.2](#12-download-the-template-for-ros2-nvidia-gpu)
+If you have an Nvidia GPU, and Nvidia Docker skip the next steps and go to [1.2](#12-setup-the-template-for-ros2-nvidia-gpu)
 
 ![open_wsl_remote](/wsl2/images/open_wsl_remote.png)
 
@@ -42,6 +45,7 @@ cd ~ # Navigate to your home directory (or any other directory of your choice)
 ## Clone the repository to your local machine (humble branch)
 git clone https://github.com/SESASR-Course/vscode_ros2_workspace.git -b humble
 ```
+
 ### 1.1.2 Modify the devcontainer.json
 
 Usually using this package the gui won't show up because the DISPLAY environment variable is not set properly.

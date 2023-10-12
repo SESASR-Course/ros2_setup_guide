@@ -10,7 +10,6 @@ This package will get you set up using ROS2 with VSCode as your IDE.
   - [1. Setup VSCode ROS2 Workspace Template](#1-setup-vscode-ros2-workspace-template)
   - [1.1 Setup template for ROS2 (No Nvidia GPU)](#11-setup-template-for-ros2-no-nvidia-gpu)
     - [1.1.1 Clone the repository](#111-clone-the-repository)
-    - [1.1.2 Modify the devcontainer.json](#112-modify-the-devcontainerjson)
     - [1.1.2 Modify the Dockerfile](#112-modify-the-dockerfile)
   - [1.2 Setup the template for ROS2 (Nvidia GPU)](#12-setup-the-template-for-ros2-nvidia-gpu)
     - [1.2.2 Modify the Dockerfile](#122-modify-the-dockerfile)
@@ -42,31 +41,6 @@ cd ~ # Navigate to your home directory (or any other directory of your choice)
 ## Clone the repository to your local machine (humble branch)
 git clone https://github.com/SESASR-Course/vscode_ros2_workspace.git -b humble
 ```
-
-<!-- ### 1.1.2 Modify the devcontainer.json
-
-Usually using this package the gui won't show up because the DISPLAY environment variable is not set properly.
-
-In your WSL2 Ubuntu instance
-
-```bash
-echo $DISPLAY
-```
-
-the output should be something like this:
-
-```bash
-:0
-```
-
-Open the ```vscode_ros2_workspace/.devcontainer/devcontainer.json``` in the repository and modify the following lines:
-
-```json
-"containerEnv": {
-    // "DISPLAY": "${localEnv:DISPLAY}", // Needed for GUI try ":0" for windows
-    "DISPLAY": ":0", // <-- Paste the value here
-   }
-``` -->
 
 ### 1.1.2 Modify the Dockerfile
 
