@@ -21,6 +21,10 @@ This guide is for installing Ubuntu on WSL (Windows Subsystem for Linux) that le
 
 Open PowerShell or Windows Command Prompt in administrator mode by right-clicking and selecting **Run as administrator**, enter the wsl --install command, then restart your machine.
 
+```PowerShell
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+```
+
 ``` PowerShell
 wsl --install -d Ubuntu-22.04
 ```
