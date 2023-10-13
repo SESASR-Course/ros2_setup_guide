@@ -1,5 +1,8 @@
 # ROS2 Setup Guide
 
+* TOC
+{:toc}
+
 ## Install ROS2
 
 The following guide will help you install ROS2 on your machine.
