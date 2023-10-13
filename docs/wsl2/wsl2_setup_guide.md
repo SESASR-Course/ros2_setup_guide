@@ -1,3 +1,5 @@
+[Home](/docs/index.md)
+
 # Install Linux on Windows with WSL
 
 This guide is for installing Ubuntu on WSL (Windows Subsystem for Linux) that lets you run Linux on Windows without using dual boot or traditional virtual machines.
@@ -29,7 +31,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 wsl --install -d Ubuntu-22.04
 ```
 
-![install_wsl](/wsl2/images/install_wsl.png)
+![install_wsl](./images/install_wsl.png)
 
 This command will enable the features necessary to run WSL and install the Ubuntu 22.04 distribution of Linux. You can also install other Linux distributions from the Microsoft Store.
 
@@ -45,7 +47,7 @@ Open PowerShell or Windows Command Prompt in administrator mode by right-clickin
 wsl --list --verbose
 ```
 
-![verify_installation](/wsl2/images/verify_install.png)
+![verify_installation](./images/verify_install.png)
 
 You can also open the Microsoft Store and search for Ubuntu to verify that the installation was successful.
 
@@ -57,21 +59,21 @@ To verify Ubuntu version, enter the following command in the Ubuntu terminal.
 lsb_release -a
 ```
 
-![ubuntu_version](/wsl2/images/verify_install_ubuntu.png)
+![ubuntu_version](./images/verify_install_ubuntu.png)
 
 ## 3. Install Windows Terminal (optional)
 
 Windows Terminal is a new, modern, feature-rich, productive terminal application for command-line users. If you don't have it installed, you can install it from the Microsoft Store.
 
-![windows_terminal](/wsl2/images/windows_terminal.png)
+![windows_terminal](./images/windows_terminal.png)
 
 To open Ubuntu in Windows Terminal, click on the down arrow and select Ubuntu 22.04.
 
-![windows_terminal_ubuntu](/wsl2/images/windows_terminal_ubuntu.png)
+![windows_terminal_ubuntu](./images/windows_terminal_ubuntu.png)
 
 If you don't see the Ubuntu profile click on the down arrow and select Settings or press ```Ctrl + ,``` and do the following:
 
-![windows_terminal_settings](/wsl2/images/windows_terminal_settings.png)
+![windows_terminal_settings](./images/windows_terminal_settings.png)
 
 ## 4. References
 

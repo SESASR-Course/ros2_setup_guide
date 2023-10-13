@@ -1,3 +1,5 @@
+[Home](/docs/index.md)
+
 # ROS2 inside dev Container
 
 This package will get you set up using ROS2 with VSCode as your IDE.
@@ -31,7 +33,7 @@ Open VSCode and go to the *Remote Explorer* tab. Then, connect to Ubuntu 22.04 c
 
 If you have an Nvidia GPU, and Nvidia Docker skip the next steps and go to [1.2](#12-setup-the-template-for-ros2-nvidia-gpu)
 
-![open_wsl_remote](/wsl2/images/open_wsl_remote.png)
+![open_wsl_remote](./images/open_wsl_remote.png)
 
 ## 1.1 Setup template for ROS2 (No Nvidia GPU)
 
@@ -122,19 +124,19 @@ Open the ```vscode_ros2_workspace``` folder in VSCode (File -> Open Folder).
 
 The first time you open the folder in VSCode, you will be prompted to reopen the folder in a container.
 
-![reopen_in_container](/dual_boot/images/open_in_dev_cont.png)
+![reopen_in_container](/docs/dual_boot/images/open_in_dev_cont.png)
 
 Click on **Reopen in Container** to open the folder in a container.
 
 If you don't see the pop-up, click on the little green square in the bottom left corner, which should bring up the container dialog
 
-![template_vscode_bottom](/dual_boot/images/template_vscode_bottom.png)
+![template_vscode_bottom](/docs/dual_boot/images/template_vscode_bottom.png)
 
 In the dialog, select ***"Remote Containers: Reopen in container"*** or press ```Ctrl + Shift + P``` and type ***"Remote Containers: Reopen in container"***
 
 VSCode will build the dockerfile inside of .devcontainer for you. If you open a terminal inside VSCode (Terminal->New Terminal), you should see that your username has been changed to ros, and the bottom left green corner should say "Dev Container" it may take a few minutes to build the first time.
 
-![template_container](/dual_boot/images/template_container.png)
+![template_container](/docs/dual_boot/images/template_container.png)
 
 Congratulations! You are now running ROS2 inside a container!
 

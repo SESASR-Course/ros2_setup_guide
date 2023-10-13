@@ -1,3 +1,5 @@
+[Home](/docs/index.md)
+
 # Visual Studio Code and Dev Containers using WSL2
 
 In this guide, you will learn how to install Visual Studio Code and the Remote - Containers extension to use Docker with VS Code.

@@ -1,3 +1,5 @@
+[Home](/docs/index.md)
+
 # Install Ubuntu desktop
 
 This guide is for installing Ubuntu desktop on a computer that already has Windows 10 (or Windows 11) installed.
@@ -31,19 +33,19 @@ This guide is for installing Ubuntu desktop on a computer that already has Windo
 ## 1. Download Ubuntu desktop
 
 Download the latest version of **Ubuntu 22.04 desktop** from [here](https://ubuntu.com/download/desktop).
-![Download page](/dual_boot/images/download_page.PNG)
+![Download page](./images/download_page.PNG)
 
 ## 2. Create a bootable USB drive
 
 We will use balenaEtcher to create a bootable USB drive. Download balenaEtcher from [here](https://www.balena.io/etcher/).
 Download the portable version if you do not want to install it.
-![balenaEtcher](/dual_boot/images/download_etcher.PNG)
+![balenaEtcher](./images/download_etcher.PNG)
 
 There are also guides for using Rufus [here](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview).
 
 Select your downloaded ISO, choose your USB flash drive, and then click Flash! to install your image.
 
-![balenaEtcher](/dual_boot/images/balenaEtcher.PNG)
+![balenaEtcher](./images/balenaEtcher.PNG)
 
 ## 3. Boot from USB
 
@@ -59,13 +61,13 @@ The key is usually F12, F10, F2, or Esc.
 
 If you have an Intel RST system, you will need to disable it before installing Ubuntu.
 
-![Intel RST](/dual_boot/images/intel_rst.PNG)
+![Intel RST](./images/intel_rst.PNG)
 
 ### 3.2. Installation type
 
 You will be asked to choose the type of installation. We reccomend normal installation if you are unsure (it installs also the most common apps).
 
-![Installation type](/dual_boot/images/installation_type.PNG)
+![Installation type](./images/installation_type.PNG)
 
 #### 3.2.1. Additional options
 
@@ -78,13 +80,13 @@ When __"Install third-party software for graphics and Wi-Fi hardware"__ is check
 
 Choose the type of installation you want to perform. **If you are unsure, select Install Ubuntu alongside Windows Boot Manager**.
 
-![Installation type](/dual_boot/images/installation_type2.png)
+![Installation type](./images/installation_type2.png)
 
 #### 3.3.1 Installing Ubuntu alongside another operating system
 
 If you select this option you will be given a simple interface that allows you to select the drive you want to install Ubuntu on and a slider to determine the amount of disk space you would like Ubuntu to use. The available space is limited by the existing contents of the disk and is designed to avoid overwriting existing files.
 
-![Installation type](/dual_boot/images/installation_alongside_win.png)
+![Installation type](./images/installation_alongside_win.png)
 
 This view automatically selects the largest partition on the drive. If you want to install Ubuntu on a different partition then you can select it from the list of available drives and partitions.
 
@@ -104,7 +106,7 @@ If this is the case you will get a prompt to disable BitLocker in Windows before
 
 - Reboot your computer again, and launch the Ubuntu installer. At this point, you will be able to proceed with the hard disk configuration step.
 
-![BitLocker](/dual_boot/images/bitlocker.png)
+![BitLocker](./images/bitlocker.png)
 
 ### 3.4. Installation
 

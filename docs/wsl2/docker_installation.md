@@ -1,3 +1,5 @@
+[Home](/docs/index.md)
+
 # Docker Desktop installation (Windows)
 
 install Docker Desktop for Windows with WSL2 backend.
