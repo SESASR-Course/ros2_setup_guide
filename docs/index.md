@@ -1,18 +1,16 @@
-# ROS2 Setup Guide
-
 * TOC
 {:toc}
+
+# ROS2 Setup Guide
 
 ## Install ROS2
 
 The following guide will help you install ROS2 on your machine.
 It diverges in two parts, depending on your operating system and on the type of installation you want to perform.
 
-- [ROS2 Setup Guide](#ros2-setup-guide)
-  - [Install ROS2](#install-ros2)
-  - [Windows Dual boot Ubuntu](#dual-boot-ubuntu)
-  - [Windows WSL2 Ubuntu](#wsl2-ubuntu)
-  - [Mac M1/M2 (experimental)](#mac-m1m2-experimental)
+The first one explains how to install Ubuntu alongside Windows on your hard drive. You will be prompted at each boot with the choise of the operating system to run.
+
+The second one explains how to run Ubuntu inside Windows using a functionality called Windows Subsystem for Linux (WSL). This option is not reccommended for PCs with low performances. The suggested minimum requirements are 16 GB of RAM and an i5-8th generation processor or equivalent.
 
 The guide proceed with the installation of:
 
