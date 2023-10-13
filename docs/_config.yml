@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: ROS2 Setup Guide
+title: ROS 2 Setup Guide
 description: An exhaustive guide for installing a ROS 2 development environment
 
 #   Write an awesome description for your new site here. You can edit this
