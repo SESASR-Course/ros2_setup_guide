@@ -2,9 +2,9 @@
 remote_theme: architect
 
 # Where things are
-source              : .
+source              : ros2_setup_guide
 destination         : ./_site
-collections_dir     : .
+collections_dir     : ros2_setup_guide
 plugins_dir         : _plugins # takes an array of strings and loads plugins in that order
 layouts_dir         : _layouts
 data_dir            : _data
@@ -16,7 +16,7 @@ collections:
     output          : true
 
 # Handling Reading
-safe                : false
+safe                : true
 include             : [".htaccess"]
 exclude             : ["Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
 keep_files          : [".git", ".svn"]
@@ -69,3 +69,8 @@ kramdown:
   hard_wrap         : false
   footnote_nr       : 1
   show_warnings     : false
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+gist:
+  noscript: false
