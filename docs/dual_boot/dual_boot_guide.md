@@ -122,7 +122,13 @@ Click Install Now to begin the installation, there will be a short recap of the 
 - You can now enjoy your dual boot system!
 - Don't forget to update your system and install the latest drivers.
 
-## 4. References
+## 4. Next step
+
+[Install Docker](./docker_installation.md)
+
+## 5. References
 
 - [Ubuntu installation guide](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
+
+
   

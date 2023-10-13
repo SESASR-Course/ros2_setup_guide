@@ -107,7 +107,7 @@ You have successfully installed Ubuntu 22.04 on your M1/M2 Mac.
 
 ## 6. Next Steps
 
-Follow the guide to [install Docker on Ubuntu 22.04](/dual_boot/docker_installation.md)
+Follow the guide to [install Docker on Ubuntu 22.04](../dual_boot/docker_installation.md)
 
 ## 7. References
 

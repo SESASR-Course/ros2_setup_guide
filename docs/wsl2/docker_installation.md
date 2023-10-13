@@ -103,9 +103,9 @@ The following displays after downloading the image and running the container:
 
 ## 3. Next steps
 
-Install VS Code and the Dev-Containers extensions to use Docker with VS Code, follow the [instructions](/wsl2/vscode_docker.md)
+Install VS Code and the Dev-Containers extensions to use Docker with VS Code, follow the [instructions](./vscode_docker.md)
 
-## 3. References
+## 4. References
 
 - [Get started with Docker remote containers on WSL 2](https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-containers)
 - [Docker Desktop WSL 2 backend on Windows](https://docs.docker.com/desktop/wsl/#download)

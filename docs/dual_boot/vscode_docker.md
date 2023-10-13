@@ -76,7 +76,7 @@ To install the extension, open Visual Studio Code and click on the Extensions ic
 
 ## 3. Next steps
 
-Install the ros2 development environment in a container, follow the [instructions](/dual_boot/ros2_dev_container.md)
+Install the ros2 development environment in a container, follow the [instructions](./ros2_dev_container.md)
 
 ## 4. References
 

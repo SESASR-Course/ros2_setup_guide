@@ -75,6 +75,10 @@ If you don't see the Ubuntu profile click on the down arrow and select Settings 
 
 ![windows_terminal_settings](./images/windows_terminal_settings.png)
 
-## 4. References
+## 4. Next steps
+
+[Install Docker Desktop](docker_installation.md)
+
+## 5. References
 
 - [Install WSL on Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10)

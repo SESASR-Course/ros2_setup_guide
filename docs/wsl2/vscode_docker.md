@@ -30,7 +30,7 @@ To get started developing apps using Docker with WSL 2, we recommend using VS Co
 
 ## 3. Next steps
 
-Install the ros2 development environment in a container, follow the [instructions](/wsl2/ros2_dev_container.md)
+Install the ros2 development environment in a container, follow the [instructions](./ros2_dev_container.md)
 
 ## 4. References
 

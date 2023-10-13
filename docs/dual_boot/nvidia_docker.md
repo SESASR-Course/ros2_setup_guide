@@ -96,7 +96,7 @@ The output should be similar to this:
 
 ## 3. Next Steps
 
-Install VS Code and the Remote - Containers extension to use Docker with VS Code, follow the [instructions](/dual_boot/vscode_docker.md)
+Install VS Code and the Remote - Containers extension to use Docker with VS Code, follow the [instructions](./vscode_docker.md)
 
 ## 4. References
 
