@@ -1,4 +1,4 @@
-[Home](/docs/index.md)
+[Home](../index.md)
 
 # Docker installation (Ubuntu 22.04)
 
