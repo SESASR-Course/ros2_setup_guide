@@ -3,6 +3,7 @@ remote_theme: architect
 
 # Where things are
 source              : .
+destination         : ./_site
 collections_dir     : .
 plugins_dir         : _plugins # takes an array of strings and loads plugins in that order
 layouts_dir         : _layouts
@@ -41,15 +42,12 @@ excerpt_separator   : "\n\n"
 incremental         : false
 
 # Serving
-detach              : false
-port                : 4000
-host                : 127.0.0.1
-baseurl             : "" # does not include hostname
+domain              : sesasr-course.github.io
+baseurl             : ros2_setup_guide
 show_dir_listing    : false
 
 # Outputting
-permalink           : date
-paginate_path       : /page:num
+
 timezone            : null
 
 quiet               : false
