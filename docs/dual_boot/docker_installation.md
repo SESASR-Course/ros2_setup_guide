@@ -96,9 +96,9 @@ docker run hello-world
 
 ## 3. Next steps
 
-If you have an Nvidia GPU, you can install Nvidia Docker to use your GPU with Docker, follow the [instructions](/dual_boot/nvidia_docker.md)
+If you have an Nvidia GPU, you can install Nvidia Docker to use your GPU with Docker, follow the [instructions](./nvidia_docker.md)
 
-Otherwise, you follow the next steps to install VS Code and the Remote - Containers extension to use Docker with VS Code, follow the [instructions](/dual_boot/vscode_docker.md)
+Otherwise, you follow the next steps to install VS Code and the Remote - Containers extension to use Docker with VS Code, follow the [instructions](./vscode_docker.md)
 
 ## 4. References
 
