@@ -50,15 +50,15 @@ If your admin account is different to your user account, you must add the user t
 - Start Docker Desktop from the Windows Start menu.
 - Select Settings to configure Docker Desktop (the gear).
 
-![Docker Desktop Settings](.images/docker-starting.png)
+![Docker Desktop Settings](./images/docker-starting.png)
 
 - Ensure that "Use the WSL 2 based engine" is checked in Settings > General, if not, check it and click Apply & Restart.
 
-![Docker Desktop Settings](.images/check_wsl2_bk.png)
+![Docker Desktop Settings](./images/check_wsl2_bk.png)
 
 Select from your installed WSL 2 distributions which you want to enable Docker integration on (Ubuntu-22.04 or Ubuntu) by going to: Settings > Resources > WSL Integration.
 
-![Docker Desktop Settings](.images/wsl_integration.png)
+![Docker Desktop Settings](./images/wsl_integration.png)
 
 Now docker commands work from Windows using the new WSL 2 engine.
 
@@ -68,7 +68,7 @@ To test it, open a Ubuntu terminal and run:
 docker --version
 ```
 
-![Docker Desktop Settings](.images/docker_version.png)
+![Docker Desktop Settings](./images/docker_version.png)
 
 And run a test container:
 
@@ -76,7 +76,7 @@ And run a test container:
 docker run hello-world
 ```
 
-![Docker Desktop Settings](.images/docker_hello_world.png)
+![Docker Desktop Settings](./images/docker_hello_world.png)
 
 ## 3. GPU support (optional)
 
@@ -97,7 +97,7 @@ docker run --rm -it --gpus=all nvcr.io/nvidia/k8s/cuda-sample:nbody nbody -gpu -
 
 The following displays after downloading the image and running the container:
 
-![Docker Desktop Settings](.images/docker_gpu_benchmark.png)
+![Docker Desktop Settings](./images/docker_gpu_benchmark.png)
 
 ## 3. Next steps
 
