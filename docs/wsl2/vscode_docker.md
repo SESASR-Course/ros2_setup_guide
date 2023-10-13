@@ -1,4 +1,4 @@
-[Home](/docs/index.md)
+[Home](../index.md)
 
 # Visual Studio Code and Dev Containers using WSL2
 

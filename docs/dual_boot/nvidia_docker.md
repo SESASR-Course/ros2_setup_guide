@@ -1,4 +1,4 @@
-[Home](/docs/index.md)
+[Home](../index.md)
 
 # Installing the NVIDIA Container Toolkit
 
