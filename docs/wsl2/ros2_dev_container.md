@@ -124,13 +124,13 @@ Open the ```vscode_ros2_workspace``` folder in VSCode (File -> Open Folder).
 
 The first time you open the folder in VSCode, you will be prompted to reopen the folder in a container.
 
-![reopen_in_container](/docs/dual_boot/images/open_in_dev_cont.png)
+![reopen_in_container](/dual_boot/images/open_in_dev_cont.png)
 
 Click on **Reopen in Container** to open the folder in a container.
 
 If you don't see the pop-up, click on the little green square in the bottom left corner, which should bring up the container dialog
 
-![template_vscode_bottom](/docs/dual_boot/images/template_vscode_bottom.png)
+![template_vscode_bottom](/dual_boot/images/template_vscode_bottom.png)
 
 In the dialog, select ***"Remote Containers: Reopen in container"*** or press ```Ctrl + Shift + P``` and type ***"Remote Containers: Reopen in container"***
 
