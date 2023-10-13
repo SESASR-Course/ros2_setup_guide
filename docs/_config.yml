@@ -25,7 +25,7 @@ title: ROS2 Setup Guide
 #   Google search results) and in your feed.xml site description.
 domain: sesasr-course.github.io
 baseurl: "/ros2_setup_guide" # the subpath of your site, e.g. /blog
-url: "https://pic4ser-kubernetes.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://sesasr-course.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
 
