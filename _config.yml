@@ -42,9 +42,9 @@ excerpt_separator   : "\n\n"
 incremental         : false
 
 # Serving
-domain              : sesasr-course.github.io
-baseurl             : ros2_setup_guide
-show_dir_listing    : false
+domain: sesasr-course.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://sesasr-course.github.io  # the base hostname and protocol for your site, e.g. http://example.com
+baseurl: /ros2_setup_guide/      # place folder name if the site is served in a subfolder
 
 # Outputting
 
