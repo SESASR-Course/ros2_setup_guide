@@ -1,3 +1,10 @@
+---
+
+title: "Install Ubuntu (Mac M1/M2)"
+layout: default
+
+---
+
 [Home](../index.md)
 
 [https://www.theroboticsspace.com/blog/How-To-Install-ROS-2-in-Ubuntu-22-04-On-M1-Mac/

@@ -1,3 +1,10 @@
+---
+
+title: "Install Visual Studio Code (Windows)"
+layout: default
+
+---
+
 [Home](../index.md)
 
 # [Visual Studio Code and Dev Containers using WSL2](#visual-studio-code-and-dev-containers-using-wsl2)

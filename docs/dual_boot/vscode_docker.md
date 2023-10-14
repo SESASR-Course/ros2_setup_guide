@@ -1,3 +1,11 @@
+---
+
+title: "Install VSCode for Linux"
+layout: default
+
+---
+
+
 [Home](../index.md)
 
 # [Visual Studio Code and Dev Containers in Linux](#visual-studio-code-and-dev-containers-in-linux)

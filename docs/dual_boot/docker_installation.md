@@ -1,3 +1,10 @@
+---
+
+title: "Docker Installation (Ubuntu 22.04)"
+layout: default
+
+---
+
 [Home](../index.md)
 
 

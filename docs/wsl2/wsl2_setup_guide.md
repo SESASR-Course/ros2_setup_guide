@@ -1,3 +1,9 @@
+---
+
+title: "Install WSL2"
+layout: default
+
+---
 [Home](../index.md)
 
 # [Install Linux on Windows with WSL](#install-linux-on-windows-with-wsl)

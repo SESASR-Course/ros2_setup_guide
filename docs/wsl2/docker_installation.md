@@ -1,3 +1,10 @@
+---
+
+title: "Install Docker Desktop (Windows)"
+layout: default
+
+---
+
 [Home](../index.md)
 
 # [Docker Desktop installation (Windows)](#docker-desktop-installation-windows)
