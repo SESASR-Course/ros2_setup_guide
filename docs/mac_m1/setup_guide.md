@@ -1,12 +1,14 @@
 [Home](../index.md)
 
-* TOC
-{:toc}
-
 [https://www.theroboticsspace.com/blog/How-To-Install-ROS-2-in-Ubuntu-22-04-On-M1-Mac/
 ](https://www.theroboticsspace.com/blog/How-To-Install-ROS-2-in-Ubuntu-22-04-On-M1-Mac/
 )
-# How To Install ROS 2 in Ubuntu 22.04 On M1/M2 Mac
+
+# [How To Install ROS 2 in Ubuntu 22.04 On M1/M2 Mac](#how-to-install-ros-2-in-ubuntu-2204-on-m1m2-mac)
+
+__Table of Contents__
+* TOC
+{:toc}
 
 The first step is more of a reminder. The Macbooks with M1/M2 Chip are ARM-based platforms compared to older MacBooks and Windows which are AMD/Intel x86-based platforms.
 Different virtual desktops are available like Parallels Desktop, Oracle’s Virtual Box, and UTM each having its pros and cons.
@@ -14,12 +16,12 @@ Different virtual desktops are available like Parallels Desktop, Oracle’s Virt
 In this guide, we will use free UTM virtualization software.
 UTM allows Ubuntu to run with OpenGL, Hardware acceleration providing a highly efficient with near-native speed performance.
 
-## Prerequisites
+## [Prerequisites](#prerequisites)
 
 - MacOS 13 or later
 - 50GB of free space
 
-## 1. Install UTM
+## [1. Install UTM](#1-install-utm)
 
 Go to [GetUTM](https://mac.getutm.app/) and click the Download button. A ```UTM.dmg``` file will start downloading.
 
@@ -29,20 +31,20 @@ Once the download is complete, double click on the ```UTM.dmg``` file to open it
 
 ![UTM Install](https://www.theroboticsspace.com/assets/simg3.png)
 
-## 2. Download Ubuntu 22.04
+## [2. Download Ubuntu 22.04](#2-download-ubuntu-2204)
 
 Go to [Ubuntu releases](https://cdimage.ubuntu.com/jammy/daily-live/current/) and download the latest [Ubuntu 22.04 image for ARMv8/AArch64 architecture](https://cdimage.ubuntu.com/jammy/daily-live/current/jammy-desktop-arm64.iso).
 
 ![Ubuntu Download](https://www.theroboticsspace.com/assets/simg2.png)
 
-## 3. Create a new virtual machine
+## [3. Create a new virtual machine](#3-create-a-new-virtual-machine)
 
 Open UTM and click on the + icon to **create a new virtual machine**.
 
 ![UTM Create VM](https://www.theroboticsspace.com/assets/simg4.png)
 ![UTM Create VM](https://www.theroboticsspace.com/assets/simg5.png)
 
-## 4. Configure the virtual machine
+## [4. Configure the virtual machine](#4-configure-the-virtual-machine)
 
 Use **Virtualize** to simulate the virtual machine with arm64 CPU architecture.
 
@@ -57,7 +59,7 @@ Continue with the default settings for **CPU**, **RAM**, **Storage**, and **Netw
 
 ![UTM Configure VM](https://www.theroboticsspace.com/assets/simg9.png)
 
-## 5. Install Ubuntu 22.04
+## [5. Install Ubuntu 22.04](#5-install-ubuntu-2204)
 
 Click on the **Play** button to start the virtual machine.
 Then in the next screen, select **Try or Install Ubuntu**.
@@ -96,13 +98,13 @@ Restart the virtual machine and login with your user account.
 
 You have successfully installed Ubuntu 22.04 on your M1/M2 Mac.
 
-## 6. Next Steps
+## [6. Next Steps](#6-next-steps)
 
 If you want to work with a setup identical to the one you will find on the physical robot follow the guide to [install Docker on Ubuntu 22.04](../dual_boot/docker_installation.md).
 
 If you want maximum performance on your Mac skip all the following steps of this guide and proceed with a standard Debian package installation of ROS 2 from [here](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html).
 
-## 7. References
+## [7. References](#7-references)
 
 - [UTM](https://mac.getutm.app/)
 - [Ubuntu releases](https://cdimage.ubuntu.com/jammy/daily-live/current/)

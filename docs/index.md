@@ -1,16 +1,19 @@
+# [ROS 2 Setup Guide](#ros-2-setup-guide)
+
 * TOC
 {:toc}
 
-# ROS 2 Setup Guide
+This guide will help you install ROS 2 on your machine. 
 
-## Install ROS 2
+At the end of each page of this tutorial there is a section named "_Next steps_" that will guide you through all the process.
 
-The following guide will help you install ROS 2 on your machine.
-It diverges in two parts, depending on your operating system and on the type of installation you want to perform.
+The first part of this tutorial will guide you through the installation of _Ubuntu 22.04_. It diverges in three parts, depending on your operating system and on the type of installation you want to perform.
 
-The first one explains how to install Ubuntu alongside Windows on your hard drive. You will be prompted at each boot with the choise of the operating system to run.
+- The [_first_](#1-dual-boot-ubuntu) one explains how to install Ubuntu alongside Windows on your hard drive. You will be prompted at each boot with the choise of the operating system to run.
 
-The second one explains how to run Ubuntu inside Windows using a functionality called Windows Subsystem for Linux (WSL). This option is not reccommended for PCs with low performances. The suggested minimum requirements are 16 GB of RAM and an i5-8th generation processor or equivalent.
+- The [_second_](#2-wsl2-ubuntu) one explains how to run Ubuntu inside Windows using a functionality called Windows Subsystem for Linux (WSL). This option is not reccommended for PCs with low performances. The suggested __minimum requirements__ are 16 GB of RAM and an i5-8th generation processor or equivalent.
+
+- The [_third_](#3-mac-m1m2-experimental) one is for users with Mac equipped with M1/M2 processors and shows how to run Ubuntu inside a UTM virtual machine. If you have a Mac with an Intel processor you can install Ubuntu in dual boot mode folowing [this instructions](https://www.youtube.com/watch?v=KIgxEEzT9ek&ab_channel=KskRoyal).
 
 Once you have an Ubuntu installation running, the guide proceed with the installation of:
 
@@ -19,7 +22,7 @@ Once you have an Ubuntu installation running, the guide proceed with the install
 - VSCode and VSCode extensions
 - ROS 2 Humble dev container
 
-## Dual boot Ubuntu
+## 1. Dual boot Ubuntu
 
 If you want to install Ubuntu on your machine, follow the setup guide for Ubuntu in dual boot.
 
@@ -29,7 +32,7 @@ If you want to install Ubuntu on your machine, follow the setup guide for Ubuntu
 1. [VSCode installation and extensions](./dual_boot/vscode_docker.md)
 1. [ROS 2 Humble dev container](./dual_boot/ros2_dev_container.md)
 
-## WSL2 Ubuntu
+## 2. WSL2 Ubuntu
 
 In alternative, you can use install Ubuntu on WSL2.
 
@@ -38,7 +41,7 @@ In alternative, you can use install Ubuntu on WSL2.
 1. [VSCode installation and extensions](./wsl2/vscode_docker.md)
 1. [ROS 2 Humble dev container](./wsl2/ros2_dev_container.md)
 
-## Mac M1/M2 (experimental)
+## 3. Mac M1/M2 (experimental)
 
 ***Please note that this is an experimental setup and it is not tested***.
 

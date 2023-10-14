@@ -1,21 +1,22 @@
 [Home](../index.md)
 
+# [Docker Desktop installation (Windows)](#docker-desktop-installation-windows)
+
+__Table of Contents__
 * TOC
 {:toc}
 
-# Docker Desktop installation (Windows)
-
 install Docker Desktop for Windows with WSL2 backend.
 
-## Prerequisites
+## [Prerequisites](#prerequisites)
 
 - WSL version 1.1.3.0 or later (previously installed)
 
-## 1. Docker Desktop installation
+## [1. Docker Desktop installation](#1-docker-desktop-installation)
 
 Download and install Docker Desktop for Windows from [here](https://www.docker.com/products/docker-desktop)
 
-## 2. Install interactively
+## [2. Install interactively](#2-install-interactively)
 
 Install the Docker Desktop WSL 2 backend using the interactive installation:
 
@@ -29,7 +30,7 @@ Install the Docker Desktop WSL 2 backend using the interactive installation:
 
 - When the installation is successful, select Close to complete the installation process.
 
-### 2.1 Additional steps for non-admin users
+### [2.1 Additional steps for non-admin users](#21-additional-steps-for-non-admin-users)
 
 If your admin account is different to your user account, you must add the user to the docker-users group:
 
@@ -37,7 +38,7 @@ If your admin account is different to your user account, you must add the user t
 - Right-click to add the user to the group.
 - Sign out and sign back in for the changes to take effect.
 
-## Configure Docker Desktop
+## [3. Configure Docker Desktop](#configure-docker-desktop)
 
 - Start Docker Desktop from the Windows Start menu.
 - Select Settings to configure Docker Desktop (the gear).
@@ -70,7 +71,7 @@ docker run hello-world
 
 ![Docker Desktop Settings](./images/docker_hello_world.png)
 
-## 3. GPU support (optional)
+## [4. GPU support (optional)](#4-gpu-support-optional)
 
 GPU support is only available in Docker Desktop for Windows with the WSL2 backend.
 
@@ -91,11 +92,11 @@ The following displays after downloading the image and running the container:
 
 ![Docker Desktop Settings](./images/docker_gpu_benchmark.png)
 
-## 3. Next steps
+## [5. Next steps](#5-next-steps)
 
 Install VS Code and the Dev-Containers extensions to use Docker with VS Code, follow the [instructions](./vscode_docker.md)
 
-## 4. References
+## [6. References](#6-references)
 
 - [Get started with Docker remote containers on WSL 2](https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-containers)
 - [Docker Desktop WSL 2 backend on Windows](https://docs.docker.com/desktop/wsl/#download)

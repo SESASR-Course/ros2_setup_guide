@@ -1,10 +1,10 @@
 [Home](../index.md)
 
+# [ROS 2 inside dev Container](#ros-2-inside-dev-container)
+
 __Table of Contents__
 * TOC
 {:toc}
-
-# [ROS 2 inside dev Container](#ros-2-inside-dev-container)
 
 This package will get you set up using ROS 2 with VSCode as your IDE.
 

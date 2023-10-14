@@ -1,17 +1,18 @@
 [Home](../index.md)
 
+# [Visual Studio Code and Dev Containers in Linux](#visual-studio-code-and-dev-containers-in-linux)
+
+__Table of Contents__
 * TOC
 {:toc}
 
-# Visual Studio Code and Dev Containers in Linux
-
 In this guide, you will learn how to install Visual Studio Code and the Remote - Containers extension to use Docker with VS Code.
 
-## 1. Install Visual Studio Code on Linux
+## [1. Install Visual Studio Code on Linux](#1-install-visual-studio-code-on-linux)
 
 There are several ways to install Visual Studio Code on Linux. The preferred way is to install VS Code using the [official repository](https://code.visualstudio.com/docs/setup/linux) for Debian/Ubuntu based distributions.
 
-### 1.1. Install using the .deb package
+### [1.1. Install using the .deb package](#11-install-using-the-deb-package)
 
 The easiest way to install Visual Studio Code for Debian/Ubuntu based distributions is to download and install the [.deb package (64-bit)](https://go.microsoft.com/fwlink/?LinkID=760868).
 
@@ -27,7 +28,7 @@ sudo apt install ./<file>.deb
 
 Installing the .deb package will automatically install the apt repository and signing key to enable auto-updating using the system's package manager.
 
-### 1.2. Install using gpg key and apt repository (alternative)
+### [1.2. Install using gpg key and apt repository (alternative)](#12-install-using-gpg-key-and-apt-repository-alternative)
 
 Alternatively, the repository and key can also be installed manually with the following script:
 
@@ -47,7 +48,7 @@ sudo apt update
 sudo apt install code # or code-insiders
 ```
 
-### 1.3. Install using Snap (alternative)
+### [1.3. Install using Snap (alternative)](#13-install-using-snap-alternative)
 
 Visual Studio Code is also available as a Snap package. If you're on Ubuntu 16.04 or later, you can install VS Code from the command line:
 
@@ -57,7 +58,7 @@ sudo snap install --classic code # or code-insiders
 
 Once installed, the Snap daemon will take care of automatically updating VS Code in the background. You will get an in-product update notification whenever a new update is available.
 
-## 2. Install Dev Containers extension
+## [2. Install Dev Containers extension](#2-install-dev-containers-extension)
 
 The [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension lets you use a Docker container as a full-featured development environment. It allows you to open any folder or repository inside a container and take advantage of Visual Studio Code's full feature set.
 
@@ -65,11 +66,11 @@ To install the extension, open Visual Studio Code and click on the Extensions ic
 
 ![Dev Containers](./images/dev_containers.png)
 
-## 3. Next steps
+## [3. Next steps](#3-next-steps)
 
 Install the ROS 2 development environment in a container, follow the [instructions](./ros2_dev_container.md)
 
-## 4. References
+## [4. References](#4-references)
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Install Visual Studio Code on Linux](https://code.visualstudio.com/docs/setup/linux)

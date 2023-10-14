@@ -1,24 +1,25 @@
 [Home](../index.md)
 
+# [Install Linux on Windows with WSL](#install-linux-on-windows-with-wsl)
+
+__Table of Contents__
 * TOC
 {:toc}
 
-# Install Linux on Windows with WSL
-
 This guide is for installing Ubuntu on WSL (Windows Subsystem for Linux) that lets you run Linux on Windows without using dual boot or traditional virtual machines.
 
-## Prerequisites
+## [Prerequisites](#prerequisites)
 
 - A computer with Windows 10 (version 19041 or higher) or Windows 11.
 - Latest graphics drivers. Try with Windows Update or [here](https://learn.microsoft.com/en-us/windows/wsl/tutorials/gui-apps#prerequisites).
 
-## 1. Install WSL command and Ubuntu
+## [1. Install WSL command and Ubuntu](#1-install-wsl-command-and-ubuntu)
 
-Open PowerShell or Windows Command Prompt in administrator mode by right-clicking and selecting **Run as administrator**, enter the wsl --install command, then restart your machine.
+Go to Control Panel > Programs and Features > Turn Windows features on or off. Ensure that __Virtual Machine Platform__ and __Windows Subsystem for Linux__ are both checked then confirm. A reboot may be required at the end of the process.
 
-```PowerShell
-Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
-```
+![Windows Feature Activation](./images/windows-feature-activation.png)
+
+Search for PowerShell in the Start menu, then right click on it and __Run as administrator__, type in the following command:
 
 ``` PowerShell
 wsl --install -d Ubuntu-22.04
@@ -32,7 +33,7 @@ Follow the instructions on the screen to **add your username and password** for 
 
 **Reboot your machine** to complete the WSL2 install.
 
-## 2. Verify installation
+## [2. Verify installation](#2-verify-installation)
 
 Open PowerShell or Windows Command Prompt in administrator mode by right-clicking and selecting **Run as administrator**, enter the wsl --list --verbose command to verify that the installation was successful.
 
@@ -54,7 +55,7 @@ lsb_release -a
 
 ![ubuntu_version](./images/verify_install_ubuntu.png)
 
-## 3. Install Windows Terminal (optional)
+## [3. Install Windows Terminal (optional)](#3-install-windows-terminal-optional)
 
 Windows Terminal is a new, modern, feature-rich, productive terminal application for command-line users. If you don't have it installed, you can install it from the Microsoft Store.
 
@@ -68,10 +69,10 @@ If you don't see the Ubuntu profile click on the down arrow and select Settings 
 
 ![windows_terminal_settings](./images/windows_terminal_settings.png)
 
-## 4. Next steps
+## [4. Next steps](#4-next-steps)
 
 [Install Docker Desktop](docker_installation.md)
 
-## 5. References
+## [5. References](#5-references)
 
 - [Install WSL on Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10)

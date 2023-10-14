@@ -1,20 +1,22 @@
 [Home](../index.md)
 
+
+# [Installing the NVIDIA Container Toolkit](#installing-the-nvidia-container-toolkit)
+
+__Table of Contents__
 * TOC
 {:toc}
 
-# Installing the NVIDIA Container Toolkit
-
 This section describes how to install the NVIDIA Container Toolkit on Linux which enables users to build and run GPU-accelerated containers.
 
-## Prerequisites
+## [Prerequisites](#prerequisites)
 
 - A compatible NVIDIA GPU
 - Nvidia GPU drivers
 - Ubuntu 22.04 (installed previously)
 - Docker (installed previously)
 
-## 1. Installing with Apt
+## [1. Installing with Apt](#1-installing-with-apt)
 
 Configure the repository:
 
@@ -33,11 +35,11 @@ Install the NVIDIA Container Toolkit packages:
 sudo apt-get install -y nvidia-container-toolkit
 ```
 
-## 2. Configuration
+## [2. Configuration](#2-configuration)
 
 After installing the NVIDIA Container Toolkit, you need to configure the runtime.
 
-### 2.1. Configuring Docker
+### [2.1. Configuring Docker](#21-configuring-docker)
 
 Configure the container runtime by using the nvidia-ctk command:
 
@@ -53,7 +55,7 @@ Restart the Docker daemon:
 sudo systemctl restart docker
 ```
 
-### 2.2 Running a Sample Workload with Docker
+### [2.2 Running a Sample Workload with Docker](#22-running-a-sample-workload-with-docker)
 
 Run a sample CUDA container:
 
@@ -85,11 +87,11 @@ The output should be similar to this:
 +-----------------------------------------------------------------------------+
 ```
 
-## 3. Next Steps
+## [3. Next Steps](#3-next-steps)
 
 Install VS Code and the Remote - Containers extension to use Docker with VS Code, follow the [instructions](./vscode_docker.md)
 
-## 4. References
+## [4. References](#4-references)
 
 - [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker)
 - [NVIDIA Sample Workloads](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/sample-workload.html)
