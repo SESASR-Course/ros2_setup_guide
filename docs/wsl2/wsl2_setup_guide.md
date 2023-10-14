@@ -3,9 +3,9 @@ title: "Install WSL2"
 layout: default
 ---
 
-[Home](../index.md)
+# [Install Linux on Windows with WSL](#install-linux-on-windows-with-wsl) <!-- omit in toc -->
 
-# [Install Linux on Windows with WSL](#install-linux-on-windows-with-wsl)
+[Home](../index.md)
 
 __Table of Contents__
 * TOC
