@@ -3,8 +3,9 @@
 * TOC
 {:toc}
 
-https://www.theroboticsspace.com/blog/How-To-Install-ROS-2-in-Ubuntu-22-04-On-M1-Mac/
-
+[https://www.theroboticsspace.com/blog/How-To-Install-ROS-2-in-Ubuntu-22-04-On-M1-Mac/
+](https://www.theroboticsspace.com/blog/How-To-Install-ROS-2-in-Ubuntu-22-04-On-M1-Mac/
+)
 # How To Install ROS 2 in Ubuntu 22.04 On M1/M2 Mac
 
 The first step is more of a reminder. The Macbooks with M1/M2 Chip are ARM-based platforms compared to older MacBooks and Windows which are AMD/Intel x86-based platforms.
@@ -97,7 +98,9 @@ You have successfully installed Ubuntu 22.04 on your M1/M2 Mac.
 
 ## 6. Next Steps
 
-Follow the guide to [install Docker on Ubuntu 22.04](../dual_boot/docker_installation.md)
+If you want to work with a setup identical to the one you will find on the physical robot follow the guide to [install Docker on Ubuntu 22.04](../dual_boot/docker_installation.md).
+
+If you want maximum performance on your Mac skip all the following steps of this guide and proceed with a standard Debian package installation of ROS 2 from [here](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html).
 
 ## 7. References
 
