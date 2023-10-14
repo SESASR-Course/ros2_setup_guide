@@ -1,20 +1,11 @@
 [Home](../index.md)
 
+* TOC
+{:toc}
+
 # Installing the NVIDIA Container Toolkit
 
 This section describes how to install the NVIDIA Container Toolkit on Linux which enables users to build and run GPU-accelerated containers.
-
-## Steps
-
-- [Installing the NVIDIA Container Toolkit](#installing-the-nvidia-container-toolkit)
-  - [Steps](#steps)
-  - [Prerequisites](#prerequisites)
-  - [1. Installing with Apt](#1-installing-with-apt)
-  - [2. Configuration](#2-configuration)
-    - [2.1. Configuring Docker](#21-configuring-docker)
-    - [2.2 Running a Sample Workload with Docker](#22-running-a-sample-workload-with-docker)
-  - [3. Next Steps](#3-next-steps)
-  - [4. References](#4-references)
 
 ## Prerequisites
 

@@ -1,21 +1,11 @@
 [Home](../index.md)
 
+* TOC
+{:toc}
+
 # Docker Desktop installation (Windows)
 
 install Docker Desktop for Windows with WSL2 backend.
-
-## Steps
-
-- [Docker Desktop installation (Windows)](#docker-desktop-installation-windows)
-  - [Steps](#steps)
-  - [Prerequisites](#prerequisites)
-  - [1. Docker Desktop installation](#1-docker-desktop-installation)
-  - [2. Install interactively](#2-install-interactively)
-    - [2.1 Additional steps for non-admin users](#21-additional-steps-for-non-admin-users)
-  - [Configure Docker Desktop](#configure-docker-desktop)
-  - [3. GPU support (optional)](#3-gpu-support-optional)
-  - [3. Next steps](#3-next-steps)
-  - [3. References](#3-references)
 
 ## Prerequisites
 

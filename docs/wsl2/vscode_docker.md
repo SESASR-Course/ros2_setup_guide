@@ -1,17 +1,11 @@
 [Home](../index.md)
 
+* TOC
+{:toc}
+
 # Visual Studio Code and Dev Containers using WSL2
 
 In this guide, you will learn how to install Visual Studio Code and the Remote - Containers extension to use Docker with VS Code.
-
-## Steps
-
-- [Visual Studio Code and Dev Containers using WSL2](#visual-studio-code-and-dev-containers-using-wsl2)
-  - [Steps](#steps)
-  - [1. Install Visual Studio Code on Windows](#1-install-visual-studio-code-on-windows)
-  - [2. Install extension for remote development](#2-install-extension-for-remote-development)
-  - [3. Next steps](#3-next-steps)
-  - [4. References](#4-references)
 
 ## 1. Install Visual Studio Code on Windows
 

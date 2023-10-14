@@ -1,20 +1,11 @@
 [Home](../index.md)
 
+* TOC
+{:toc}
+
 # Visual Studio Code and Dev Containers in Linux
 
 In this guide, you will learn how to install Visual Studio Code and the Remote - Containers extension to use Docker with VS Code.
-
-## Steps
-
-- [Visual Studio Code and Dev Containers in Linux](#visual-studio-code-and-dev-containers-in-linux)
-  - [Steps](#steps)
-  - [1. Install Visual Studio Code on Linux](#1-install-visual-studio-code-on-linux)
-    - [1.1. Install using the .deb package](#11-install-using-the-deb-package)
-    - [1.2. Install using gpg key and apt repository (alternative)](#12-install-using-gpg-key-and-apt-repository-alternative)
-    - [1.3. Install using Snap (alternative)](#13-install-using-snap-alternative)
-  - [2. Install Dev Containers extension](#2-install-dev-containers-extension)
-  - [3. Next steps](#3-next-steps)
-  - [4. References](#4-references)
 
 ## 1. Install Visual Studio Code on Linux
 

@@ -1,23 +1,12 @@
 [Home](../index.md)
 
+* TOC
+{:toc}
+
 # Docker installation (Ubuntu 22.04)
 
 Docker Engine is an open source containerization technology for building and containerizing your applications.
 Here it is a brief guide to install Docker Engine on Ubuntu 22.04.
-
-## Steps
-
-- [Docker installation (Ubuntu 22.04)](#docker-installation-ubuntu-2204)
-  - [Steps](#steps)
-  - [Prerequisites](#prerequisites)
-  - [1. Install using the Apt repository](#1-install-using-the-apt-repository)
-    - [1.1. Add Docker's official GPG key](#11-add-dockers-official-gpg-key)
-    - [1.2. Add the repository to Apt sources](#12-add-the-repository-to-apt-sources)
-    - [1.3. Install Docker Engine](#13-install-docker-engine)
-  - [2. Linux post-installation steps for Docker Engine](#2-linux-post-installation-steps-for-docker-engine)
-    - [2.1. Manage Docker as a non-root user](#21-manage-docker-as-a-non-root-user)
-  - [3. Next steps](#3-next-steps)
-  - [4. References](#4-references)
 
 ## Prerequisites
 

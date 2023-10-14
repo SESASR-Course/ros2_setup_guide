@@ -1,27 +1,11 @@
 [Home](../index.md)
 
+* TOC
+{:toc}
+
 # Install Ubuntu desktop
 
 This guide is for installing Ubuntu desktop on a computer that already has Windows 10 (or Windows 11) installed.
-
-## Steps
-
-- [Install Ubuntu desktop](#install-ubuntu-desktop)
-  - [Steps](#steps)
-  - [Prerequisites](#prerequisites)
-  - [1. Download Ubuntu desktop](#1-download-ubuntu-desktop)
-  - [2. Create a bootable USB drive](#2-create-a-bootable-usb-drive)
-  - [3. Boot from USB](#3-boot-from-usb)
-    - [3.1. RST (Intel Rapid Storage Technology)](#31-rst-intel-rapid-storage-technology)
-    - [3.2. Installation type](#32-installation-type)
-      - [3.2.1. Additional options](#321-additional-options)
-    - [3.3. Type of installation](#33-type-of-installation)
-      - [3.3.1 Installing Ubuntu alongside another operating system](#331-installing-ubuntu-alongside-another-operating-system)
-      - [3.3.2 Manual partitioning](#332-manual-partitioning)
-      - [3.3.3 (Alert) Windows BitLocker is enabled](#333-alert-windows-bitlocker-is-enabled)
-    - [3.4. Installation](#34-installation)
-      - [3.4.1. Final steps](#341-final-steps)
-  - [4. References](#4-references)
 
 ## Prerequisites
 

@@ -1,23 +1,11 @@
 [Home](../index.md)
 
+* TOC
+{:toc}
+
 # ROS 2 inside dev Container
 
 This package will get you set up using ROS 2 with VSCode as your IDE.
-
-## Steps
-
-- [ROS 2 inside dev Container](#ros2-inside-dev-container)
-  - [Steps](#steps)
-  - [Prerequisites](#prerequisites)
-  - [1. Setup VSCode ROS 2 Workspace Template](#1-setup-vscode-ros2-workspace-template)
-  - [1.1 Setup template for ROS 2 (No Nvidia GPU)](#11-setup-template-for-ros2-no-nvidia-gpu)
-    - [1.1.1 Clone the repository](#111-clone-the-repository)
-    - [1.1.2 Modify the Dockerfile](#112-modify-the-dockerfile)
-  - [1.2 Setup the template for ROS 2 (Nvidia GPU)](#12-setup-the-template-for-ros2-nvidia-gpu)
-    - [1.2.2 Modify the Dockerfile](#122-modify-the-dockerfile)
-  - [2. Open the workspace in VSCode using Dev Containers](#2-open-the-workspace-in-vscode-using-dev-containers)
-  - [2.1. Verify ROS 2 installation](#21-verify-ros2-installation)
-  - [4 References](#4-references)
 
 ## Prerequisites
 

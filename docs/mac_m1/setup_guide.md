@@ -1,5 +1,8 @@
 [Home](../index.md)
 
+* TOC
+{:toc}
+
 https://www.theroboticsspace.com/blog/How-To-Install-ROS-2-in-Ubuntu-22-04-On-M1-Mac/
 
 # How To Install ROS 2 in Ubuntu 22.04 On M1/M2 Mac
@@ -9,19 +12,6 @@ Different virtual desktops are available like Parallels Desktop, Oracle’s Virt
 
 In this guide, we will use free UTM virtualization software.
 UTM allows Ubuntu to run with OpenGL, Hardware acceleration providing a highly efficient with near-native speed performance.
-
-## Steps
-
-- [How To Install ROS 2 in Ubuntu 22.04 On M1/M2 Mac](#how-to-install-ros-2-in-ubuntu-2204-on-m1m2-mac)
-  - [Steps](#steps)
-  - [Prerequisites](#prerequisites)
-  - [1. Install UTM](#1-install-utm)
-  - [2. Download Ubuntu 22.04](#2-download-ubuntu-2204)
-  - [3. Create a new virtual machine](#3-create-a-new-virtual-machine)
-  - [4. Configure the virtual machine](#4-configure-the-virtual-machine)
-  - [5. Install Ubuntu 22.04](#5-install-ubuntu-2204)
-  - [6. Next Steps](#6-next-steps)
-  - [7. References](#7-references)
 
 ## Prerequisites
 
