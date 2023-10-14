@@ -1,5 +1,6 @@
 # [ROS 2 Setup Guide](#ros-2-setup-guide)
 
+__Table of Contents__
 * TOC
 {:toc}
 
@@ -22,7 +23,7 @@ Once you have an Ubuntu installation running, the guide proceed with the install
 - VSCode and VSCode extensions
 - ROS 2 Humble dev container
 
-## 1. Dual boot Ubuntu
+## [1. Dual boot Ubuntu](#1-dual-boot-ubuntu)
 
 If you want to install Ubuntu on your machine, follow the setup guide for Ubuntu in dual boot.
 
@@ -32,7 +33,7 @@ If you want to install Ubuntu on your machine, follow the setup guide for Ubuntu
 1. [VSCode installation and extensions](./dual_boot/vscode_docker.md)
 1. [ROS 2 Humble dev container](./dual_boot/ros2_dev_container.md)
 
-## 2. WSL2 Ubuntu
+## [2. WSL2 Ubuntu](#2-wsl2-ubuntu)
 
 In alternative, you can use install Ubuntu on WSL2.
 
@@ -41,7 +42,7 @@ In alternative, you can use install Ubuntu on WSL2.
 1. [VSCode installation and extensions](./wsl2/vscode_docker.md)
 1. [ROS 2 Humble dev container](./wsl2/ros2_dev_container.md)
 
-## 3. Mac M1/M2 (experimental)
+## [3. Mac M1/M2 (experimental)](#3-mac-m1m2-experimental)
 
 ***Please note that this is an experimental setup and it is not tested***.
 
