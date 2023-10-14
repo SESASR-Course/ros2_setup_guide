@@ -3,11 +3,11 @@
 * TOC
 {:toc}
 
-# ROS 2 inside dev Container
+# [ROS 2 inside dev Container](#ros-2-inside-dev-container)
 
 This package will get you set up using ROS 2 with VSCode as your IDE.
 
-## Prerequisites
+## [Prerequisites](#prerequisites)
 
 - Ubuntu 22.04 (installed previously)
 - Docker (installed previously)
@@ -15,7 +15,7 @@ This package will get you set up using ROS 2 with VSCode as your IDE.
 - Remote - Containers extension (installed previously)
 - Nvidia container toolkit (optionally installed previously)
 
-## 1. Setup VSCode ROS 2 Workspace Template
+## [1. Setup VSCode ROS 2 Workspace Template](#1-setup-vscode-ros-2-workspace-template)
 
 Open VSCode and go to the *Remote Explorer* tab. Then, connect to Ubuntu 22.04 clicking on the arrow.
 
@@ -24,9 +24,9 @@ Open VSCode and go to the *Remote Explorer* tab. Then, connect to Ubuntu 22.04 c
 If you have an Nvidia GPU, and Nvidia Docker skip the next steps and go to [1.2](#12-setup-the-template-for-ros-2-nvidia-gpu)
 
 
-## 1.1 Setup template for ROS 2 (No Nvidia GPU)
+## [1.1 Setup template for ROS 2 (No Nvidia GPU)](#11-setup-template-for-ros-2-no-nvidia-gpu)
 
-### 1.1.1 Clone the repository
+### [1.1.1 Clone the repository](#111-clone-the-repository)
 
 Open a terminal inside VSCode and clone the following repository to your local machine:
 
@@ -37,7 +37,7 @@ cd ~ # Navigate to your home directory (or any other directory of your choice)
 git clone https://github.com/SESASR-Course/vscode_ros2_workspace.git -b humble
 ```
 
-### 1.1.2 Modify the devcontainer.json
+### [1.1.2 Modify the devcontainer.json](#112-modify-the-devcontainerjson)
 
 Usually using this package the GUI won't show up because the DISPLAY environment variable is not set properly.
 
@@ -62,7 +62,7 @@ Open the ```vscode_ros2_workspace/.devcontainer/devcontainer.json``` in the repo
    }
 ```
 
-### 1.1.3 Modify the Dockerfile
+### [1.1.3 Modify the Dockerfile](#113-modify-the-dockerfile)
 
 Open the ```vscode_ros2_workspace/.devcontainer/Dockerfile``` in the repository and modify the first line:
 
@@ -80,7 +80,7 @@ This will install ROS 2 with Gazebo and other dependencies.
 
 After this step and go to [2. Open the workspace in VSCode using Dev Containers](#2-open-the-workspace-in-vscode-using-dev-containers)
 
-## 1.2 Setup the template for ROS 2 (Nvidia GPU)
+## [1.2 Setup the template for ROS 2 (Nvidia GPU)](#12-setup-the-template-for-ros-2-nvidia-gpu)
 Clone the following repository to your local machine:
 
 ```bash
@@ -89,7 +89,7 @@ cd ~ # Navigate to your home directory (or any other directory of your choice)
 ## Clone the repository to your local machine (humble-nvidia branch)
 git clone https://github.com/SESASR-Course/vscode_ros2_workspace.git -b humble-nvidia
 ```
-### 1.2.2 Modify the devcontainer.json
+### [1.2.2 Modify the devcontainer.json](#122-modify-the-devcontainerjson)
 
 Usually using this package the GUI won't show up because the DISPLAY environment variable is not set properly.
 
@@ -114,7 +114,7 @@ Open the ```vscode_ros2_workspace/.devcontainer/devcontainer.json``` in the repo
    }
 ```
 
-### 1.2.3 Modify the Dockerfile
+### [1.2.3 Modify the Dockerfile](#123-modify-the-dockerfile)
 
 Open the ```vscode_ros2_workspace/.devcontainer/Dockerfile``` in the repository and modify the first line:
 
@@ -130,7 +130,7 @@ FROM althack/ros2:humble-cuda-gazebo-nvidia
 
 This will install ROS 2 with Gazebo and other dependencies.
 
-## 2. Open the workspace in VSCode using Dev Containers
+## [2. Open the workspace in VSCode using Dev Containers](#2-open-the-workspace-in-vscode-using-dev-containers)
 
 Open the ```vscode_ros2_workspace``` folder in VSCode (File -> Open Folder).
 
@@ -152,7 +152,7 @@ VSCode will build the dockerfile inside of .devcontainer for you. If you open a 
 
 Congratulations! You are now running ROS 2 inside a container!
 
-## 2.1. Verify ROS 2 installation
+## [2.1. Verify ROS 2 installation](#21-verify-ros-2-installation)
 
 To verify the installation, open a terminal inside VSCode (Terminal->New Terminal) and run the following command:
 
