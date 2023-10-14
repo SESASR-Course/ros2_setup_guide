@@ -1,8 +1,6 @@
 ---
-
 title: "Install Visual Studio Code (Windows)"
 layout: default
-
 ---
 
 [Home](../index.md)

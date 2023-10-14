@@ -1,8 +1,6 @@
 ---
-
 title: "Install ROS 2 Dev Container (Ubuntu)"
 layout: default
-
 ---
 
 [Home](../index.md)

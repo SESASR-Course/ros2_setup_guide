@@ -1,8 +1,6 @@
 ---
-
 title: "Install VSCode for Linux"
 layout: default
-
 ---
 
 

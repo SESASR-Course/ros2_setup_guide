@@ -1,8 +1,6 @@
 ---
-
 title: "Install Docker Desktop (Windows)"
 layout: default
-
 ---
 
 [Home](../index.md)

@@ -1,8 +1,6 @@
 ---
-
 title: "Install ROS 2 Dev Container (Windows)"
 layout: default
-
 ---
 
 [Home](../index.md)

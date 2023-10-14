@@ -1,8 +1,6 @@
 ---
-
 title: "Install Ubuntu"
 layout: default
-
 ---
 
 [Home](../index.md)

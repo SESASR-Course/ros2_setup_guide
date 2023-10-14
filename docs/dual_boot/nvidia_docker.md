@@ -1,8 +1,6 @@
 ---
-
 title: "Install NVIDIA Support"
 layout: default
-
 ---
 
 [Home](../index.md)

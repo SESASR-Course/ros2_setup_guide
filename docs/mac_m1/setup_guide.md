@@ -1,8 +1,6 @@
 ---
-
 title: "Install Ubuntu (Mac M1/M2)"
 layout: default
-
 ---
 
 [Home](../index.md)
