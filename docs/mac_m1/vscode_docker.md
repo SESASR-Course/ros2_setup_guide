@@ -70,7 +70,7 @@ The [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms
 
 To install the extension, open Visual Studio Code and click on the Extensions icon in the Activity Bar on the left side of the VS Code window. Then, search for "Dev - Containers" and click Install.
 
-![Dev Containers](./images/dev_containers.png)
+![Dev Containers](/ros2_setup_guide/dual_boot/images/dev_containers.png)
 
 ## [3. Next steps](#3-next-steps)
 
