@@ -49,6 +49,6 @@ In alternative, you can use install Ubuntu on WSL2.
 If you have a Mac M1/M2, you can install Ubuntu on a virtual machine using UTM.
 
 1. [Mac M1/M2 setup guide](./mac_m1/setup_guide.md)
-1. [Docker installation](./dual_boot/docker_installation.md)
-1. [VSCode installation and extensions](./dual_boot/vscode_docker.md)
-1. [ROS 2 Humble dev container](./dual_boot/ros2_dev_container.md)
+1. [Docker installation](./mac_m1/docker_installation.md)
+1. [VSCode installation and extensions](./mac_m1/vscode_docker.md)
+1. [ROS 2 Humble dev container](./mac_m1/ros2_dev_container.md)
