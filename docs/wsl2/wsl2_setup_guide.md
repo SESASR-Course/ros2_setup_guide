@@ -27,6 +27,7 @@ Go to Control Panel > Programs and Features > Turn Windows features on or off. E
 Search for PowerShell in the Start menu, then right click on it and __Run as administrator__, type in the following command:
 
 ``` PowerShell
+wsl --update
 wsl --install -d Ubuntu-22.04
 ```
 
