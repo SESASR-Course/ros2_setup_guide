@@ -23,19 +23,20 @@ The guide proceed with the installation of:
 If you want to install Ubuntu on your machine, follow the setup guide for Ubuntu in dual boot.
 
 - [Dual boot Ubuntu setup guide](./dual_boot/dual_boot_guide.md)
-- [Docker installation](./dual_boot/docker_installation.md)
-- [Nvidia Docker installation](./dual_boot/nvidia_docker.md) (optional)
 - [VSCode installation and extensions](./dual_boot/vscode_docker.md)
-- [ROS2 Humble dev container](./dual_boot/ros2_dev_container.md)
+- [Docker installation](./dual_boot/docker_installation.md) (optional not needed if you have installed ROS2 on your machine)
+- [Nvidia Docker installation](./dual_boot/nvidia_docker.md) (optional not needed if you have installed ROS2 on your machine)
+- [ROS2 Humble dev container](./dual_boot/ros2_dev_container.md) (optional not needed if you have installed ROS2 on your machine)
 
 ## WSL2 Ubuntu
 
 In alternative, you can use install Ubuntu on WSL2.
 
 - [WSL2 Ubuntu setup guide](./wsl2/wsl2_setup_guide.md)
-- [Docker Desktop installation](./wsl2/docker_installation.md)
+- [ROS2 installation](./wsl2/ros2_installation.md)
 - [VSCode installation and extensions](./wsl2/vscode_docker.md)
-- [ROS2 Humble dev container](./wsl2/ros2_dev_container.md)
+- [Docker Desktop installation](./wsl2/docker_installation.md) (optional not needed if you have installed ROS2 on your machine)
+- [ROS2 Humble dev container](./wsl2/ros2_dev_container.md) (optional not needed if you have installed ROS2 on your machine)
 
 ## Mac M1/M2 (experimental)
 
