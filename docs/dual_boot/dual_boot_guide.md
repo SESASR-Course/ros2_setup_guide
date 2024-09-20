@@ -115,7 +115,8 @@ Click Install Now to begin the installation, there will be a short recap of the 
 
 ## [4. Next step](#4-next-step)
 
-[Install Docker](./docker_installation.md)
+<!-- [Install Docker](./docker_installation.md) -->
+[ROS2 Installation](./ros2_installation.md)
 
 ## [5. References](#5-references)
 

@@ -77,7 +77,8 @@ If you don't see the Ubuntu profile click on the down arrow and select Settings 
 
 ## [4. Next steps](#4-next-steps)
 
-[Install Docker Desktop](docker_installation.md)
+<!-- [Install Docker Desktop](docker_installation.md)  -->
+[ROS2 Installation](./ros2_installation.md)
 
 ## [5. References](#5-references)
 
