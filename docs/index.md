@@ -16,13 +16,6 @@ The first part of this tutorial will guide you through the installation of _Ubun
 
 - The [_third_](#3-mac-m1m2-experimental) one is for users with Mac equipped with M1/M2 processors and shows how to run Ubuntu inside a UTM virtual machine. If you have a Mac with an Intel processor you can install Ubuntu in dual boot mode folowing [this instructions](https://www.youtube.com/watch?v=KIgxEEzT9ek&ab_channel=KskRoyal).
 
-Once you have an Ubuntu installation running, the guide proceed with the installation of:
-
-- Docker (Ubuntu) / Docker Desktop (Windows)
-- Nvidia Docker (optional)
-- VSCode and VSCode extensions
-- ROS 2 Humble dev container
-
 ## [1. Dual boot Ubuntu](#1-dual-boot-ubuntu)
 
 If you want to install Ubuntu on your machine, follow the setup guide for Ubuntu in dual boot.
