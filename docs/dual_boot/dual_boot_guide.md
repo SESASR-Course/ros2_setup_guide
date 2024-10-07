@@ -23,7 +23,7 @@ This guide is for installing Ubuntu desktop on a computer that already has Windo
 
 ## [1. Download Ubuntu desktop](#1-download-ubuntu-desktop)
 
-Download the latest version of **Ubuntu 22.04 desktop** from [here](https://ubuntu.com/download/desktop).
+Download the latest version of **Ubuntu 22.04 desktop** from [here](https://releases.ubuntu.com/22.04/?_gl=1*19ip6hm*_gcl_au*MTE4NTIyOTI0MS4xNzA3MTMxMDQx&_ga=2.97636443.555381409.1728295126-549894435.1728295126).
 ![Download page](./images/download_page.PNG)
 
 ## [2. Create a bootable USB drive](#2-create-a-bootable-usb-drive)
