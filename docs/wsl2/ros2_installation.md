@@ -1,12 +1,12 @@
 ---
-title: "ROS2 installation (WSL2)"
+title: "ROS 2 installation (WSL2)"
 layout: default
 ---
 
 [Home](../index.md)
-# [ROS2 installation on WSL2](#ros2-installation-on-wsl2)
+# [ROS 2 installation on WSL2](#ros2-installation-on-wsl2)
 
-In this guide, you will learn how to install ROS2 in the Windows Subsystem for Linux 2 (WSL2).
+In this guide, you will learn how to install ROS 2 in the Windows Subsystem for Linux 2 (WSL2).
 
 __Table of Contents__
 * TOC
@@ -15,7 +15,7 @@ __Table of Contents__
 ## [Prerequisites](#prerequisites)
 
 - Open a WSL2 terminal
-- check locale settings by running `locale` command in the terminal. The output should be similar to the following:
+- Check locale settings by running `locale` command in the terminal. The output should be similar to the following:
       ![locale](./images/locale.PNG)
 - If the output is not `en_US.UTF-8`, you need to set the locale to `en_US.UTF-8` by running the following commands:
   
@@ -30,9 +30,13 @@ __Table of Contents__
 Add the ROS 2 apt repository to your sources list.
 
 ```bash
-sudo apt update && sudo apt install curl gnupg2 lsb-release
-curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
-sudo sh -c 'echo "deb [arch=$(dpkg --print-architecture)] http://packages.ros.org/ros2/ubuntu $(lsb_release -cs) main" > /etc/apt/sources.list.d/ros2-latest.list'
+sudo apt update && sudo apt install curl gnupg2 lsb-release software-properties-common
+
+sudo add-apt-repository universe
+
+sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
+
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
 ```
 
 ## [2. Install ROS 2 packages](#2-install-ros-2-packages)
@@ -42,52 +46,52 @@ Update the package list and install the ROS 2 packages.
 ```bash
 sudo apt update
 sudo apt upgrade
-sudo apt install ros-humble-desktop
-sudo apt install ros-dev-tools
+sudo apt install -y ros-humble-desktop ros-dev-tools
 ```
 
 ## [3. Environment setup](#3-environment-setup)
 
-Source the ROS 2 setup script to add ROS 2 environment variables to your shell session.
+The `.bashrc` is a text file located in your home directory (also indicated as `~`). It is an hidden file, since its name starts with a dot, that is executed each time you open a new terminal. Let's set it up to activate ROS 2 in each new terminal.
 
-```bash
-echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
-echo "source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash" >> ~/.bashrc
-source ~/.bashrc
-```
+- Open the `.bashrc` file and add the following lines at the end. Use the command `notepad.exe ~/.bashrc` to open the file in a text editor.
 
-To test the installation, run the following command:
+    ```bash
+    source /opt/ros/humble/setup.bash
+    source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
+    ```
 
-```bash
-ros2 run demo_nodes_cpp talker
-```
+- To test the installation, run the following command in a new terminal:
 
-You should see the following output:
+    ```bash
+    ros2 run demo_nodes_cpp talker
+    ```
 
-```bash
-[INFO] [talker]: Publishing: 'Hello World: 1'
-[INFO] [talker]: Publishing: 'Hello World: 2'
-[INFO] [talker]: Publishing: 'Hello World: 3'
+    You should see the following output:
 
-and so on...
-```
+    ```bash
+    [INFO] [talker]: Publishing: 'Hello World: 1'
+    [INFO] [talker]: Publishing: 'Hello World: 2'
+    [INFO] [talker]: Publishing: 'Hello World: 3'
 
-in another terminal run the following command:
+    and so on...
+    ```
 
-```bash
-ros2 run demo_nodes_py listener
-```
+- In another terminal run the following command:
 
-You should see the following output:
+    ```bash
+    ros2 run demo_nodes_py listener
+    ```
 
-```bash
-[INFO] [listener]: I heard: [Hello World: 1]
-[INFO] [listener]: I heard: [Hello World: 2]
-[INFO] [listener]: I heard: [Hello World: 3]
-and so on...
-```
+    You should see the following output:
 
-if you see the above output, then the installation was successful.
+    ```bash
+    [INFO] [listener]: I heard: [Hello World: 1]
+    [INFO] [listener]: I heard: [Hello World: 2]
+    [INFO] [listener]: I heard: [Hello World: 3]
+    and so on...
+    ```
+
+If you see the above output, then the installation was successful.
 
 <!-- ## [4. Next steps](#4-next-steps)
 

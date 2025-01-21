@@ -28,7 +28,7 @@ Once you have an Ubuntu installation running, the guide proceed with the install
 If you want to install Ubuntu on your machine, follow the setup guide for Ubuntu in dual boot.
 
 1. [Dual boot Ubuntu setup guide](./dual_boot/dual_boot_guide.md)
-1. [ROS2 installation](./dual_boot/ros2_installation.md)
+1. [ROS 2 installation](./dual_boot/ros2_installation.md)
 
 <!--
 1. [Docker installation](./dual_boot/docker_installation.md)
@@ -42,7 +42,7 @@ If you want to install Ubuntu on your machine, follow the setup guide for Ubuntu
 In alternative, you can use install Ubuntu on WSL2.
 
 1. [WSL2 Ubuntu setup guide](./wsl2/wsl2_setup_guide.md)
-1. [ROS2 installation](./wsl2/ros2_installation.md)
+1. [ROS 2 installation](./wsl2/ros2_installation.md)
 
 <!-- 
 1. [Docker Desktop installation](./wsl2/docker_installation.md)
@@ -57,7 +57,7 @@ In alternative, you can use install Ubuntu on WSL2.
 If you have a Mac M1/M2, you can install Ubuntu on a virtual machine using UTM.
 
 1. [Mac M1/M2 setup guide](./mac_m1/setup_guide.md)
-1. [ROS2 installation](./mac_m1/ros2_installation.md)
+1. [ROS 2 installation](./mac_m1/ros2_installation.md)
 
 <!--
 1. [Docker installation](./mac_m1/docker_installation.md)

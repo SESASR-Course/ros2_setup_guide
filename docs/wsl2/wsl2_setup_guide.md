@@ -20,46 +20,42 @@ This guide is for installing Ubuntu on WSL (Windows Subsystem for Linux) that le
 
 ## [1. Install WSL command and Ubuntu](#1-install-wsl-command-and-ubuntu)
 
-Go to Control Panel > Programs and Features > Turn Windows features on or off. Ensure that __Virtual Machine Platform__ and __Windows Subsystem for Linux__ are both checked then confirm. A reboot may be required at the end of the process.
+1. Go to Control Panel > Programs and Features > Turn Windows features on or off. Ensure that __Virtual Machine Platform__ and __Windows Subsystem for Linux__ are both checked then confirm. A reboot may be required at the end of the process.
 
-![Windows Feature Activation](./images/windows-feature-activation.png)
+    ![Windows Feature Activation](./images/windows-feature-activation.png)
 
-Search for PowerShell in the Start menu, then right click on it and __Run as administrator__, type in the following command:
+1. Search for PowerShell in the Start menu, then right click on it and __Run as administrator__, type in the following command:
 
-``` PowerShell
-wsl --update
-wsl --install -d Ubuntu-22.04
-```
+    ``` PowerShell
+    wsl --update
+    wsl --install -d Ubuntu-22.04
+    ```
 
-![install_wsl](./images/install_wsl.png)
+    ![install_wsl](./images/install_wsl.png)
 
-This command will enable the features necessary to run WSL and install the Ubuntu 22.04 distribution of Linux. You can also install other Linux distributions from the Microsoft Store.
+    This command will enable the features necessary to run WSL and install the Ubuntu 22.04 distribution of Linux. You can also install other Linux distributions from the Microsoft Store.
 
-Follow the instructions on the screen to **add your username and password** for the Linux distribution.
+1. Follow the instructions on the screen to **add your username and password** for the Linux distribution.
 
-**Reboot your machine** to complete the WSL2 install.
+1. **Reboot your machine** to complete the WSL2 install.
 
 ## [2. Verify installation](#2-verify-installation)
 
-Open PowerShell or Windows Command Prompt in administrator mode by right-clicking and selecting **Run as administrator**, enter the wsl --list --verbose command to verify that the installation was successful.
+1. Open PowerShell or Windows Command Prompt in administrator mode by right-clicking and selecting **Run as administrator**, enter the wsl --list --verbose command to verify that the installation was successful.
 
-``` PowerShell
-wsl --list --verbose
-```
+    ``` PowerShell
+    wsl --list --verbose
+    ```
 
-![verify_installation](./images/verify_install.png)
+    ![verify_installation](./images/verify_install.png)
 
-You can also open the Microsoft Store and search for Ubuntu to verify that the installation was successful.
+2. To start Ubuntu, search for Ubuntu in the Start menu and click on the Ubuntu 22.04 app. Then, verify Ubuntu version entering the following command in the Ubuntu terminal.
 
-To start Ubuntu, search for Ubuntu in the Start menu and click on the Ubuntu 22.04 app.
+    ``` bash
+    lsb_release -a
+    ```
 
-To verify Ubuntu version, enter the following command in the Ubuntu terminal.
-
-``` bash
-lsb_release -a
-```
-
-![ubuntu_version](./images/verify_install_ubuntu.png)
+    ![ubuntu_version](./images/verify_install_ubuntu.png)
 
 ## [3. Install Windows Terminal (optional)](#3-install-windows-terminal-optional)
 
@@ -75,11 +71,31 @@ If you don't see the Ubuntu profile click on the down arrow and select Settings 
 
 ![windows_terminal_settings](./images/windows_terminal_settings.png)
 
-## [4. Next steps](#4-next-steps)
+## [4. Increase available memory (optional)](#4-increase-available-memory-optional)
+
+WSL 2 defaults at using half of the RAM installed in your computer, for example if you have 8 GB of RAM the Linux Subsystem can use only 4 GB. If you need to increase this value because, for example, some ROS 2 packages will need more RAM to build, perform the following operations.
+
+1. In a PowerShell window type the following command, this will open the file `.wslconfig` in a Notepad windows so that you can edit it.
+    ```powershell
+    New-Item $env:USERPROFILE/.wslconfig -type file -Force; notepad.exe $env:USERPROFILE/.wslconfig
+    ```
+
+1. Add the following lines to the just opened file and save it.
+    ```conf
+    [wsl2]
+    memory=8GB # you can put as much as you want, up to the maximum installed in your system
+    ```
+
+1. Restart WSL system typing the following line in a PowerShell window.
+    ```powershell
+    wsl --shutdown
+    ```
+
+## [5. Next step](#5-next-step)
 
 <!-- [Install Docker Desktop](docker_installation.md)  -->
-[ROS2 Installation](./ros2_installation.md)
+[ROS 2 Installation](./ros2_installation.md)
 
-## [5. References](#5-references)
+## [6. References](#6-references)
 
 - [Install WSL on Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10)

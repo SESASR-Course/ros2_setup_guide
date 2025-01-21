@@ -108,7 +108,7 @@ You have successfully installed Ubuntu 22.04 on your M1/M2 Mac.
 <!-- If you want to work with a setup identical to the one you will find on the physical robot follow the guide to [install Docker on Ubuntu 22.04](./docker_installation.md).
 
 If you want maximum performance on your Mac skip all the following steps of this guide and proceed with a standard Debian package installation of ROS 2 from [here](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html). -->
-[ROS2 Installation](./ros2_installation.md)
+[ROS 2 Installation](./ros2_installation.md)
 
 ## [7. References](#7-references)
 
