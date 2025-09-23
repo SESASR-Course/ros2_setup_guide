@@ -38,9 +38,9 @@ Once the download is complete, double click on the ```UTM.dmg``` file to open it
 
 ## [2. Download Ubuntu 22.04](#2-download-ubuntu-2204)
 
-Go to [Ubuntu releases](https://cdimage.ubuntu.com/jammy/daily-live/current/) and download the latest [Ubuntu 22.04 image for ARMv8/AArch64 architecture](https://cdimage.ubuntu.com/jammy/daily-live/current/jammy-desktop-arm64.iso).
+Go to [Ubuntu releases](https://cdimage.ubuntu.com/releases/22.04.5/release/) and download the latest [Ubuntu 22.04 image for ARMv8/AArch64 architecture](https://cdimage.ubuntu.com/releases/22.04.5/release/ubuntu-22.04.5-live-server-arm64.iso).
 
-![Ubuntu Download](https://www.theroboticsspace.com/assets/simg2.png)
+![Ubuntu Download](./images/ubuntu_releases.png)
 
 ## [3. Create a new virtual machine](#3-create-a-new-virtual-machine)
 
@@ -71,35 +71,20 @@ Then in the next screen, select **Try or Install Ubuntu**.
 
 ![UTM Install Ubuntu](https://www.theroboticsspace.com/assets/simg10.png)
 
-Once the Ubuntu 22.04 screen appears type ```ubuntu``` as the password and press enter.
-
-![UTM Install Ubuntu](https://www.theroboticsspace.com/assets/simg12.png)
-
-Click on the **Install Ubuntu** icon on the desktop to start the installation process.
-
-![UTM Install Ubuntu](https://www.theroboticsspace.com/assets/simg13.png)
-
-Select the **Normal Installation** and ***Install Third Party Software** option and click on the **Continue** button.
-
-![UTM Install Ubuntu](https://www.theroboticsspace.com/assets/simg14.png)
-
-Select the **Erase disk and install Ubuntu** option and click on the **Install Now** button.
-
-![UTM Install Ubuntu](https://www.theroboticsspace.com/assets/simg15.png)
-
-Proceed with the installation process and create your user account.
-
-![UTM Install Ubuntu](https://www.theroboticsspace.com/assets/simg16.png)
-
-Once the installation is complete, close the dialog box power off the system.
-
-![UTM Install Ubuntu](https://www.theroboticsspace.com/assets/simg19.png)
+Install Ubuntu following the on-screen instructions.
 
 Eject the Ubuntu 22.04 iso file from the virtual machine.
 
 ![UTM Install Ubuntu](https://www.theroboticsspace.com/assets/simg20.png)
 
 Restart the virtual machine and login with your user account.
+
+Since the available version of Ubuntu is for servers, you need to run the following commands to install the desktop environment:
+
+```bash
+sudo apt update
+sudo apt install ubuntu-desktop-minimal
+```
 
 You have successfully installed Ubuntu 22.04 on your M1/M2 Mac.
 
