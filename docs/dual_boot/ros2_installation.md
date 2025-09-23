@@ -15,9 +15,7 @@ __Table of Contents__
 ## [Prerequisites](#prerequisites)
 
 - Open a terminal
-- Check locale settings by running `locale` command in the terminal. The output should be similar to the following:
-      ![locale](./images/locale.PNG)
-- If the output is not `en_US.UTF-8`, you need to set the locale to `en_US.UTF-8` by running the following commands:
+- You need to set the locale to `en_US.UTF-8` by running the following commands:
   
     ```bash
     sudo locale-gen en_US en_US.UTF-8
@@ -30,13 +28,18 @@ __Table of Contents__
 Add the ROS 2 apt repository to your sources list.
 
 ```bash
-sudo apt update && sudo apt install curl gnupg2 lsb-release software-properties-common
-
+sudo apt update
+sudo apt install software-properties-common curl gnupg2 lsb-release
 sudo add-apt-repository universe
+sudo apt update
 
-sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
+export ROS_APT_SOURCE_VERSION=$(curl -s https://api.github.com/repos/ros-infrastructure/ros-apt-source/releases/latest | grep -F "tag_name" | awk -F\" '{print $4}')
 
-echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
+curl -L -o /tmp/ros2-apt-source.deb "https://github.com/ros-infrastructure/ros-apt-source/releases/download/${ROS_APT_SOURCE_VERSION}/ros2-apt-source_${ROS_APT_SOURCE_VERSION}.$(. /etc/os-release && echo ${UBUNTU_CODENAME:-${VERSION_CODENAME}})_all.deb"
+
+sudo dpkg -i /tmp/ros2-apt-source.deb
+
+rm /tmp/ros2-apt-source.deb
 ```
 
 ## [2. Install ROS 2 packages](#2-install-ros-2-packages)
@@ -46,7 +49,7 @@ Update the package list and install the ROS 2 packages.
 ```bash
 sudo apt update
 sudo apt upgrade
-sudo apt install -y ros-humble-desktop ros-dev-tools
+sudo apt install -y ros-humble-desktop ros-dev-tools ros-humble-rmw-zenoh-cpp
 ```
 
 ## [3. Environment setup](#3-environment-setup)
