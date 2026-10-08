@@ -5,10 +5,6 @@ layout: default
 
 [Home](../index.md)
 
-[https://www.theroboticsspace.com/blog/How-To-Install-ROS-2-in-Ubuntu-22-04-On-M1-Mac/
-](https://www.theroboticsspace.com/blog/How-To-Install-ROS-2-in-Ubuntu-22-04-On-M1-Mac/
-)
-
 # [How To Install ROS 2 in Ubuntu 22.04 On M1/M2 Mac](#how-to-install-ros-2-in-ubuntu-2204-on-m1m2-mac)
 
 __Table of Contents__
