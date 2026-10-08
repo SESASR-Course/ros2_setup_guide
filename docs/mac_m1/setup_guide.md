@@ -46,36 +46,36 @@ Go to [Ubuntu releases](https://cdimage.ubuntu.com/releases/22.04.5/release/) an
 
 Open UTM and click on the + icon to **create a new virtual machine**.
 
-![UTM Create VM](https://www.theroboticsspace.com/assets/simg4.png)
-![UTM Create VM](https://www.theroboticsspace.com/assets/simg5.png)
+![UTM Create VM](./images/create_vm1.webp)
 
 ## [4. Configure the virtual machine](#4-configure-the-virtual-machine)
 
 Use **Virtualize** to simulate the virtual machine with arm64 CPU architecture.
 
-![UTM Configure VM](https://www.theroboticsspace.com/assets/simg6.png)
+![UTM Create VM](./images/configure1.webp)
 
 Select Linux as the **Guest OS** and then the .iso file downloaded for Ubuntu 22.04.
 
-![UTM Configure VM](https://www.theroboticsspace.com/assets/simg7.png)
-![UTM Configure VM](https://www.theroboticsspace.com/assets/simg8.png)
+![UTM Configure VM](./images/configure2.png)
+![UTM Configure VM](./images/configure3.png)
 
 Continue with the default settings for **CPU**, **RAM**, **Storage**, and **Network**.
 
-![UTM Configure VM](https://www.theroboticsspace.com/assets/simg9.png)
+![UTM Configure VM](./images/configure4.png)
+![UTM Configure VM](./images/configure5.png)
 
 ## [5. Install Ubuntu 22.04](#5-install-ubuntu-2204)
 
 Click on the **Play** button to start the virtual machine.
 Then in the next screen, select **Try or Install Ubuntu**.
 
-![UTM Install Ubuntu](https://www.theroboticsspace.com/assets/simg10.png)
+![UTM Install Ubuntu](./images/install1.png)
 
 Install Ubuntu following the on-screen instructions.
 
 Eject the Ubuntu 22.04 iso file from the virtual machine.
 
-![UTM Install Ubuntu](https://www.theroboticsspace.com/assets/simg20.png)
+![UTM Install Ubuntu](./images/install2.png)
 
 Restart the virtual machine and login with your user account.
 
@@ -84,6 +84,7 @@ Since the available version of Ubuntu is for servers, you need to run the follow
 ```bash
 sudo apt update
 sudo apt install ubuntu-desktop-minimal
+sudo reboot
 ```
 
 You have successfully installed Ubuntu 22.04 on your M1/M2 Mac.
