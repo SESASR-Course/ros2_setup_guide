@@ -30,11 +30,7 @@ UTM allows Ubuntu to run with OpenGL, Hardware acceleration providing a highly e
 
 Go to [GetUTM](https://mac.getutm.app/) and click the Download button. A ```UTM.dmg``` file will start downloading.
 
-![UTM Download](https://www.theroboticsspace.com/assets/simg1.png)
-
 Once the download is complete, double click on the ```UTM.dmg``` file to open it. Drag the UTM icon to the Applications folder.
-
-![UTM Install](https://www.theroboticsspace.com/assets/simg3.png)
 
 ## [2. Download Ubuntu 22.04](#2-download-ubuntu-2204)
 
@@ -100,4 +96,4 @@ If you want maximum performance on your Mac skip all the following steps of this
 
 - [UTM](https://mac.getutm.app/)
 - [Ubuntu releases](https://cdimage.ubuntu.com/jammy/daily-live/current/)
-- [How to Install Ubuntu on Mac M1](https://www.theroboticsspace.com/blog/How-To-Install-ROS-2-in-Ubuntu-22-04-On-M1-Mac/)
+- [How to Install Ubuntu on Mac M1](https://techblog.shippio.io/how-to-run-an-ubuntu-22-04-vm-on-m1-m2-apple-silicon-9554adf4fda1)
