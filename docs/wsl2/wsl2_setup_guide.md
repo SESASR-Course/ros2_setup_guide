@@ -1,5 +1,5 @@
 ---
-title: "Install WSL2"
+title: "Install WSL 2"
 layout: default
 ---
 
@@ -26,9 +26,9 @@ This guide is for installing Ubuntu on WSL (Windows Subsystem for Linux) that le
 
 1. Search for PowerShell in the Start menu, then right click on it and __Run as administrator__, type in the following command:
 
-    ``` PowerShell
-    wsl --update
-    wsl --install -d Ubuntu-22.04
+    ``` powershell
+wsl --update
+wsl --install -d Ubuntu-22.04
     ```
 
     ![install_wsl](./images/install_wsl.png)
@@ -37,14 +37,14 @@ This guide is for installing Ubuntu on WSL (Windows Subsystem for Linux) that le
 
 1. Follow the instructions on the screen to **add your username and password** for the Linux distribution.
 
-1. **Reboot your machine** to complete the WSL2 install.
+1. **Reboot your machine** to complete the WSL 2 install.
 
 ## [2. Verify installation](#2-verify-installation)
 
 1. Open PowerShell or Windows Command Prompt in administrator mode by right-clicking and selecting **Run as administrator**, enter the wsl --list --verbose command to verify that the installation was successful.
 
-    ``` PowerShell
-    wsl --list --verbose
+    ``` powershell
+wsl --list --verbose
     ```
 
     ![verify_installation](./images/verify_install.png)
@@ -52,7 +52,7 @@ This guide is for installing Ubuntu on WSL (Windows Subsystem for Linux) that le
 2. To start Ubuntu, search for Ubuntu in the Start menu and click on the Ubuntu 22.04 app. Then, verify Ubuntu version entering the following command in the Ubuntu terminal.
 
     ``` bash
-    lsb_release -a
+lsb_release -a
     ```
 
     ![ubuntu_version](./images/verify_install_ubuntu.png)
@@ -77,18 +77,18 @@ WSL 2 defaults at using half of the RAM installed in your computer, for example 
 
 1. In a PowerShell window type the following command, this will open the file `.wslconfig` in a Notepad windows so that you can edit it.
     ```powershell
-    New-Item $env:USERPROFILE/.wslconfig -type file -Force; notepad.exe $env:USERPROFILE/.wslconfig
+New-Item $env:USERPROFILE/.wslconfig -type file -Force; notepad.exe $env:USERPROFILE/.wslconfig
     ```
 
 1. Add the following lines to the just opened file and save it.
     ```conf
-    [wsl2]
-    memory=8GB # you can put as much as you want, up to the maximum installed in your system
+[wsl2]
+memory=8GB # you can put as much as you want, up to the maximum installed in your system
     ```
 
 1. Restart WSL system typing the following line in a PowerShell window.
     ```powershell
-    wsl --shutdown
+wsl --shutdown
     ```
 
 ## [5. Next step](#5-next-step)

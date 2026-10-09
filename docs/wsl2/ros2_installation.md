@@ -1,12 +1,12 @@
 ---
-title: "ROS 2 installation (WSL2)"
+title: "ROS 2 installation (WSL 2)"
 layout: default
 ---
 
 [Home](../index.md)
-# [ROS 2 installation on WSL2](#ros2-installation-on-wsl2)
+# [ROS 2 installation on WSL 2](#ros2-installation-on-wsl2)
 
-In this guide, you will learn how to install ROS 2 in the Windows Subsystem for Linux 2 (WSL2).
+In this guide, you will learn how to install ROS 2 in the Windows Subsystem for Linux 2 (WSL 2).
 
 __Table of Contents__
 * TOC
@@ -14,13 +14,13 @@ __Table of Contents__
 
 ## [Prerequisites](#prerequisites)
 
-- Open a WSL2 terminal
+- Open a WSL 2 terminal
 - You need to set the locale to `en_US.UTF-8` by running the following commands:
   
     ```bash
-    sudo locale-gen en_US en_US.UTF-8
-    sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
-    export LANG=en_US.UTF-8
+sudo locale-gen en_US en_US.UTF-8
+sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
     ```
 
 ## [1. Setup Sources](#1-setup-sources)
@@ -59,39 +59,39 @@ The `.bashrc` is a text file located in your home directory (also indicated as `
 - Open the `.bashrc` file and add the following lines at the end. Use the command `notepad.exe ~/.bashrc` to open the file in a text editor.
 
     ```bash
-    source /opt/ros/humble/setup.bash
-    source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
+source /opt/ros/humble/setup.bash
+source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
     ```
 
 - To test the installation, run the following command in a new terminal:
 
     ```bash
-    ros2 run demo_nodes_cpp talker
+ros2 run demo_nodes_cpp talker
     ```
 
     You should see the following output:
 
     ```bash
-    [INFO] [talker]: Publishing: 'Hello World: 1'
-    [INFO] [talker]: Publishing: 'Hello World: 2'
-    [INFO] [talker]: Publishing: 'Hello World: 3'
+[INFO] [talker]: Publishing: 'Hello World: 1'
+[INFO] [talker]: Publishing: 'Hello World: 2'
+[INFO] [talker]: Publishing: 'Hello World: 3'
 
-    and so on...
+and so on...
     ```
 
 - In another terminal run the following command:
 
     ```bash
-    ros2 run demo_nodes_py listener
+ros2 run demo_nodes_py listener
     ```
 
     You should see the following output:
 
     ```bash
-    [INFO] [listener]: I heard: [Hello World: 1]
-    [INFO] [listener]: I heard: [Hello World: 2]
-    [INFO] [listener]: I heard: [Hello World: 3]
-    and so on...
+[INFO] [listener]: I heard: [Hello World: 1]
+[INFO] [listener]: I heard: [Hello World: 2]
+[INFO] [listener]: I heard: [Hello World: 3]
+and so on...
     ```
 
 If you see the above output, then the installation was successful.

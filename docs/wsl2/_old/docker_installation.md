@@ -11,7 +11,7 @@ __Table of Contents__
 * TOC
 {:toc}
 
-install Docker Desktop for Windows with WSL2 backend.
+install Docker Desktop for Windows with WSL 2 backend.
 
 ## [Prerequisites](#prerequisites)
 
@@ -78,7 +78,7 @@ docker run hello-world
 
 ## [4. GPU support (optional)](#4-gpu-support-optional)
 
-GPU support is only available in Docker Desktop for Windows with the WSL2 backend.
+GPU support is only available in Docker Desktop for Windows with the WSL 2 backend.
 
 With Docker Desktop version 3.1.0 and later, WSL 2 GPU Paravirtualization (GPU-PV) on NVIDIA GPUs is supported. To enable WSL 2 GPU Paravirtualization, you need:
 

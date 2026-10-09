@@ -25,3 +25,102 @@ header{
 body {
     font-family: "Lato","proxima-nova","Helvetica Neue",Arial,sans-serif;
 }
+
+aside#sidebar {
+    box-sizing: border-box;
+    padding: 0 0 0 20px;
+    background-position: top left;
+    position: sticky;
+    top: 20px;
+    align-self: flex-start;
+}
+
+.site-navigation h2 {
+    margin: 0 0 12px;
+    color: #474747;
+    font-family: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.site-navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.site-navigation li {
+    margin: 0;
+}
+
+.site-navigation > ul > li {
+    margin-bottom: 8px;
+}
+
+.site-navigation .navigation-section > span {
+    display: block;
+    margin-bottom: 3px;
+    color: #474747;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.site-navigation .navigation-section ul {
+    padding-left: 10px;
+}
+
+.site-navigation a {
+    display: block;
+    padding: 3px 6px;
+    border-radius: 3px;
+    line-height: 1.35;
+    text-decoration: none;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+    background-color: #e8f2fb;
+    text-decoration: underline;
+}
+
+.site-navigation a[aria-current="page"] {
+    background-color: #dcecf9;
+    color: #1f5f9f;
+    font-weight: 700;
+}
+
+.copyable-code {
+    position: relative;
+}
+
+.copy-code-button {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    z-index: 1;
+    padding: 5px 10px;
+    border: 1px solid #b8c6d3;
+    border-radius: 4px;
+    background: #fff;
+    color: #2879d0;
+    cursor: pointer;
+    font: inherit;
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+.copy-code-button:hover,
+.copy-code-button:focus-visible {
+    background: #e8f2fb;
+}
+
+@media only screen and (max-width: 767px) {
+    aside#sidebar {
+        position: static;
+        min-height: 0;
+        padding: 20px 0 0;
+        margin-top: 25px;
+        border-top: 1px solid #ddd;
+        background: none;
+    }
+}

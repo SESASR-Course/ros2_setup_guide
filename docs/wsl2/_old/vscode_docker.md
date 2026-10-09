@@ -5,7 +5,7 @@ layout: default
 
 [Home](../index.md)
 
-# [Visual Studio Code and Dev Containers using WSL2](#visual-studio-code-and-dev-containers-using-wsl2)
+# [Visual Studio Code and Dev Containers using WSL 2](#visual-studio-code-and-dev-containers-using-wsl2)
 
 __Table of Contents__
 * TOC

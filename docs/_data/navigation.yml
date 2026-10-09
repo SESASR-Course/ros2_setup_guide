@@ -1,0 +1,53 @@
+- title: Home
+  url: /
+
+- title: WSL 2 Ubuntu
+  pages:
+    - title: Install WSL 2
+      url: /wsl2/wsl2_setup_guide/
+    # - title: Docker Desktop (Windows)
+    #   url: /wsl2/docker_installation/
+    - title: ROS 2 installation (WSL 2)
+      url: /wsl2/ros2_installation/
+    # - title: ROS 2 Dev Container (Windows)
+    #   url: /wsl2/ros2_dev_container/
+    # - title: VS Code and Dev Containers
+    #   url: /wsl2/vscode_docker/
+
+- title: Dual boot Ubuntu
+  pages:
+    - title: Install Ubuntu
+      url: /dual_boot/dual_boot_guide/
+    # - title: Docker Installation (Ubuntu)
+    #   url: /dual_boot/docker_installation/
+    - title: ROS 2 installation (Ubuntu)
+      url: /dual_boot/ros2_installation/
+    # - title: NVIDIA Container Toolkit
+    #   url: /dual_boot/nvidia_docker/
+    # - title: ROS 2 Dev Container (Ubuntu)
+    #   url: /dual_boot/ros2_dev_container/
+    # - title: VS Code and Dev Containers
+    #   url: /dual_boot/vscode_docker/
+
+- title: Mac M1/M2
+  pages:
+    - title: Install Ubuntu (Mac M1/M2)
+      url: /mac_m1/setup_guide/
+    - title: ROS 2 installation (Ubuntu)
+      url: /dual_boot/ros2_installation/
+    # - title: Docker Installation (Ubuntu)
+    #   url: /mac_m1/docker_installation/
+    # - title: ROS 2 Dev Container (Ubuntu on ARM)
+    #   url: /mac_m1/ros2_dev_container/
+    # - title: VS Code and Dev Containers
+    #   url: /mac_m1/vscode_docker/
+
+# - title: General guides
+#   pages:
+#     - title: Connect VS Code to a Remote
+#       url: /vscode/vscode_remote/
+
+# - title: Archive
+#   pages:
+#     - title: Previous home page
+#       url: /index_old/

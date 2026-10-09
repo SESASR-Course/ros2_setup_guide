@@ -38,7 +38,7 @@ Go to [Ubuntu releases](https://cdimage.ubuntu.com/releases/22.04.5/release/) an
 
 Open UTM and click on the + icon to **create a new virtual machine**.
 
-![UTM Create VM](./images/create_vm1.webp)
+![UTM Create VM](./images/create.webp)
 
 ## [4. Configure the virtual machine](#4-configure-the-virtual-machine)
 

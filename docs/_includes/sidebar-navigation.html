@@ -1,0 +1,22 @@
+<nav class="site-navigation" aria-label="Site navigation">
+  <ul>
+    {% for section in site.data.navigation %}
+      {% if section.url %}
+        <li>
+          <a href="{{ section.url | relative_url }}"{% if page.url == section.url %} aria-current="page"{% endif %}>{{ section.title }}</a>
+        </li>
+      {% else %}
+        <li class="navigation-section">
+          <span>{{ section.title }}</span>
+          <ul>
+            {% for item in section.pages %}
+              <li>
+                <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</nav>

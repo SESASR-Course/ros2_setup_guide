@@ -12,13 +12,13 @@ At the end of each page of this tutorial there is a section named "_Next step_" 
 
 Choose the guide that fit best your needs from the three available below.
 
-## [1. WSL2 Ubuntu (Suggested)](#2-wsl2-ubuntu)
+## [1. WSL 2 Ubuntu (Suggested)](#2-wsl2-ubuntu)
 
 Windows Subsystem for Linux (WSL) is a functionality of Windows that let you run Ubuntu in a terminal while running Windows. In this way, we can run ROS 2 in the simpliest and most efficient way as we were running Ubuntu on our PC. You will need at least 10 GB of free space.
 
-First of all, you will need to activate the WSL2 functionality, then you will be guided in the installation of ROS 2.
+First of all, you will need to activate the WSL 2 functionality, then you will be guided in the installation of ROS 2.
 
-__Start from [WSL2 Ubuntu setup](./wsl2/wsl2_setup_guide.md).__
+__Start from [WSL 2 Ubuntu setup](./wsl2/wsl2_setup_guide.md).__
 
 ## [2. Dual boot Ubuntu](#1-dual-boot-ubuntu)
 

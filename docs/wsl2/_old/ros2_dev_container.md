@@ -47,7 +47,7 @@ git clone https://github.com/SESASR-Course/vscode_ros2_workspace.git -b humble
 
 Usually using this package the GUI won't show up because the DISPLAY environment variable is not set properly.
 
-In your WSL2 Ubuntu instance
+In your WSL 2 Ubuntu instance
 
 ```bash
 echo $DISPLAY
@@ -99,7 +99,7 @@ git clone https://github.com/SESASR-Course/vscode_ros2_workspace.git -b humble-n
 
 Usually using this package the GUI won't show up because the DISPLAY environment variable is not set properly.
 
-In your WSL2 Ubuntu instance
+In your WSL 2 Ubuntu instance
 
 ```bash
 echo $DISPLAY

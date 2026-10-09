@@ -37,11 +37,11 @@ If you want to install Ubuntu on your machine, follow the setup guide for Ubuntu
 1. [ROS 2 Humble dev container](./dual_boot/ros2_dev_container.md) 
 -->
 
-## [2. WSL2 Ubuntu](#2-wsl2-ubuntu)
+## [2. WSL 2 Ubuntu](#2-wsl2-ubuntu)
 
-In alternative, you can use install Ubuntu on WSL2.
+In alternative, you can use install Ubuntu on WSL 2.
 
-1. [WSL2 Ubuntu setup guide](./wsl2/wsl2_setup_guide.md)
+1. [WSL 2 Ubuntu setup guide](./wsl2/wsl2_setup_guide.md)
 1. [ROS 2 installation](./wsl2/ros2_installation.md)
 
 <!-- 
