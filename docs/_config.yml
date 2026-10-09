@@ -31,8 +31,8 @@ url: "https://sesasr-course.github.io" # the base hostname & protocol for your s
 permalink: pretty
 
 # Build settings
-# remote_theme: pages-themes/architect
-remote_theme: just-the-docs/just-the-docs
+remote_theme: pages-themes/architect
+
 plugins:
   - jekyll-relative-links
 # Exclude from processing.
